@@ -82,7 +82,7 @@ const Footer = () => {
 						<li className="text-gray-500 text-md pb-2 font-extrabold  hover:text-blue-600 cursor-pointer">
 							Terms and Conditions
 						</li>
-						<li className="text-gray-500 text-md pb-2 font-extrabold  hover:text-blue-600 cursor-pointer">
+						<li onClick={() => Router.push("/reachout")} className="text-gray-500 text-md pb-2 font-extrabold  hover:text-blue-600 cursor-pointer">
 							Contact
 						</li>
 						

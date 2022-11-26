@@ -25,35 +25,35 @@ const Products = () => {
       src: html,
       title: "HTML",
       style: "shadow-orange-500",
-      href: "/html"
+      href: "/htmlcss"
     },
     {
       id: 2,
       src: css,
       title: "CSS",
       style: "shadow-blue-500",
-      href: "/css"
+      href: "/htmlcss"
     },
      {
       id: 3,
       src: javascript,
       title: "JavaScript",
       style: "shadow-yellow-500",
-      href: "/tailwind"
+      href: "/javascript"
     },
     {
       id: 4,
       src: reactImage,
       title: "ReactJS",
       style: "shadow-blue-700",
-      href: "/javascript"
+      href: "/reactjs"
     },
     {
       id: 5,
       src: nextjs,
       title: "NextJS",
       style: "shadow-white",
-      href: "/react"
+      href: "/nextjs"
     },
    
     {
@@ -61,28 +61,28 @@ const Products = () => {
       src: threejs,
       title: "ThreeJS",
       style: "shadow-white",
-      href: "/next"
+      href: "/threejs"
     }, 
     {
       id: 6,
       src: vim,
       title: "(Neo)Vim",
       style: "shadow-green-600",
-      href: "/next"
+      href: "/neovim"
     }, 
     {
       id: 6,
       src: nextjs,
       title: "Introduction to Code",
       style: "shadow-purple-600",
-      href: "/next"
+      href: "/introtocode"
     }, 
     {
       id: 6,
       src: threejs,
       title: "Markdown",
       style: "shadow-white",
-      href: "/next"
+      href: "/markdown"
     }, 
   ];
 
@@ -113,6 +113,7 @@ const Products = () => {
             >
               <Image src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
+              <Link href={href}></Link>
               
             </div>
           ))}
