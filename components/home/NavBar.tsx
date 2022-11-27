@@ -23,8 +23,7 @@ import {
 
 
 const NavBar : React.FC = () => {
-     const [darkTheme, setDarkTheme] = useDarkMode();
-    const handleMode = () => setDarkTheme(!darkTheme);
+     
 
 
 
@@ -55,24 +54,7 @@ const NavBar : React.FC = () => {
             href: "/reachout"
         },
 
-        {
-            id:5,
-            link: (
-            <>
-             {darkTheme ? (
-                    <FaSun size='40' className='top-navigation-icon' />
-                    ) : (
-                    <FaMoon size='40' className='top-navigation-icon' />
-                    )}
-            </>
-            ),
-            href: (
-            <>
-             onClick={handleMode}
-                
-            </>
-            ),
-        }
+        
 
     ]
 
@@ -82,7 +64,7 @@ const NavBar : React.FC = () => {
             <div>
                 <Link href="/">
                 <h1 className="text-2xl font-signature font-bold
-                            ml-4 md:ml-16">CodingNotes</h1>
+                            ml-32">CodingNotes</h1>
                 </Link>
             </div>
 
@@ -97,7 +79,6 @@ const NavBar : React.FC = () => {
             className="px-4  cursor-pointer capitalize 
              text-black hover:scale-105 mr-8
             duration-200 font-bold" 
-            onClick={handleMode}
             >
 
                 

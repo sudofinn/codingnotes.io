@@ -1,6 +1,5 @@
 import React from 'react'
 import Head from "next/head"
-import useDarkMode from "../../components/hooks/useDarkMode"
 
 /* when darkmode working, do same as in products > index.tsx, fixes whitespace problem, just look at first code 
 after return statement */
@@ -11,8 +10,6 @@ import {
 } from 'react-icons/fa';
 
 const Index = () => {
-  const [darkTheme, setDarkTheme] = useDarkMode();
-  const handleMode = () => setDarkTheme(!darkTheme);
 
 
   return (
@@ -29,13 +26,7 @@ const Index = () => {
             Contact
           </p>
           <p  data-aos="fade-up" className="py-6 text-2xl text-center ">Submit the form below to get in touch with me</p>
-          <span onClick={handleMode} className="flex justify-center mb-2 hover:scale-110 duration-500">
-        {darkTheme ? (
-          <FaSun size='30' className='top-navigation-icon' />
-        ) : (
-          <FaMoon size='30' className='top-navigation-icon' />
-        )}
-      </span>
+          
         </div>
 
         <div className=" flex justify-center items-center">
@@ -48,23 +39,24 @@ const Index = () => {
               type="text"
               name="name"
               placeholder="Enter your name"
-              className="p-2 bg-transparent border-2 dark:border-black rounded-md text-black focus:outline-none"
+              className="p-2 bg-gradient-to-r text-black from-blue-500 to-purple-400 border-2 dark:border-black rounded-md focus:outline-none"
             />
             <input
               type="text"
               name="email"
               placeholder="Enter your email"
-              className="my-4 p-2 bg-transparent border-2  dark:border-black rounded-md text-black focus:outline-none"
+              className="my-4 p-2 bg-gradient-to-r from-purple-400 to-blue-500 border-2  dark:border-black rounded-md text-black focus:outline-none"
             />
             <textarea
               name="message"
               placeholder="Enter your message"
               rows={9}
-              className="p-2 bg-transparent border-2 rounded-md dark:border-black text-black focus:outline-none"
+              className="p-2 bg-gradient-to-r from-yellow-400 to-orange-500  border-2 rounded-md dark:border-black text-black focus:outline-none"
             ></textarea>
 
             <button className="text-black shadow-md hover:shadow-white bg-white dark:bg-black dark:text-white hover:bg-black hover:text-white px-8 py-4
-             my-8 mx-auto flex  items-center rounded-md hover:scale-110 duration-300 mb-8">
+             my-8 mx-auto flex  items-center rounded-md hover:scale-110 duration-300 mb-8
+             bg-gradient-to-r from-blue-500 via-purple-500 to-orange-500">
               Let us talk
             </button>
           </form>

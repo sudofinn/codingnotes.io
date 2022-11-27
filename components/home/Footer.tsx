@@ -74,7 +74,7 @@ const Footer = () => {
 				</div>
 				<div className="p-5">
 					<ul>
-						<p className="text-gray-800  text-3xl font-extrabold  pb-4">Rights</p>
+						<p className="text-gray-800  text-3xl font-extrabold  pb-4">Sources</p>
 						<li className="text-gray-500 text-md pb-2 font-extrabold  hover:text-blue-600 cursor-pointer">
 							Third Party Usage
 						</li>

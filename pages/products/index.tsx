@@ -111,9 +111,8 @@ const Products = () => {
               className={`shadow-xl hover:shadow-md hover:scale-110 duration-500 py-2 rounded-xl ${style}`}
               onClick={(() => Router.push(`${href}`))}
             >
-              <Image src={src} alt="" className="w-20 mx-auto" />
-              <p className="mt-4">{title}</p>
-              <Link href={href}></Link>
+              <Image src={src} alt="" className="w-20 mx-auto"  />
+              <p className="mt-4" >{title} </p>
               
             </div>
           ))}

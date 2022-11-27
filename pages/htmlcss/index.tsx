@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from "next/link"
 
-import FooterImage from "../../assets/web-design.svg"
+import FooterImage from "../../assets/web-design_orange.svg"
 
 import {GrNotes} from "react-icons/gr"
 import {BsPen} from "react-icons/bs"
@@ -18,7 +18,14 @@ import html from "../../assets/html.png";
 import css from "../../assets/css.png";
 import javascript from "../../assets/javascript.png";
 
-import FirstGoodImage from "../../assets/htmlcssbanner1.png"
+import First from "../../assets/covers/htmlcss1_final.png"
+import Second from "../../assets/covers/htmlcss2.png"
+import Third from "../../assets/covers/htmlcss7.png"
+import Forth from "../../assets/covers/htmlcss8.png"
+import Fifth from "../../assets/covers/htmlcss3.png"
+import Six from "../../assets/covers/htmlcss4.png"
+import Seven from "../../assets/covers/htmlcss5.png"
+import Eight from "../../assets/covers/htmlcss6_final.png"
 
 
 
@@ -26,16 +33,36 @@ const Index = () => {
 
   const slideImages = [
   {
-    src: FirstGoodImage,
+    src: First,
     caption: 'Slide 1'
   },
   {
-    src: FirstGoodImage,
+    src: Second,
     caption: 'Slide 2'
   },
   {
-    src: FirstGoodImage,
+    src: Third,
     caption: 'Slide 3'
+  },
+  {
+    src: Forth,
+    caption: 'Slide 4'
+  },
+  {
+    src: Fifth,
+    caption: 'Slide 5'
+  },
+  {
+    src: Six,
+    caption: 'Slide 6'
+  },
+  {
+    src: Seven,
+    caption: 'Slide 7'
+  },
+  {
+    src: Eight,
+    caption: 'Slide 8'
   },
 ];
 
@@ -45,7 +72,7 @@ const techs = [
       src: html,
       title: "Notes",
       style: "shadow-black",
-      href: "/htmlcss",
+      href: "/beforelaunch",
       icon: 
       <>
         <GrNotes size={70} />
@@ -57,14 +84,14 @@ const techs = [
                 <li>40+ visuals</li>
        </ul>
       </>,
-      price: "$3"
+      price: "$4"
     },
     {
       id: 2,
       src: css,
       title: "Both",
-      style: "shadow-black bg-gradient-to-r from-blue-500 to-red-500",
-      href: "/htmlcss",
+      style: "shadow-black bg-gradient-to-r from-blue-500 to-orange-600",
+      href: "/beforelaunch",
        icon: 
       <>
         <GiCutDiamond size={70} />
@@ -76,14 +103,14 @@ const techs = [
               
        </ul>
       </>,
-      price: "$8"
+      price: "$7"
     },
      {
       id: 3,
       src: javascript,
       title: "Flashcards",
       style: "shadow-black ",
-      href: "/javascript",
+      href: "/beforelaunch",
        icon: 
       <>
         <BsPen size={70} />
@@ -95,7 +122,7 @@ const techs = [
                 <li>Advanced algorithms to learn efficient.</li>
        </ul>
       </>,
-      price: "$3"
+      price: "$4"
     },
   ]
  
@@ -110,7 +137,7 @@ const techs = [
 
      <div className='text-center'>
             <h1  data-aos="fade-up" className="text-7xl mt-8 font-extrabold">Learn the Fundamentals - HTML and CSS </h1>
-             <button className=" bg-red-500 shadow-md shadow-black text-white  px-8 py-6
+             <button className=" bg-orange-600 shadow-md shadow-black text-white  px-8 py-6
                 mx-auto  rounded-md hover:scale-110 duration-300 mt-8 hover:shadow-xl hover:shadow-black hover:text-white hover:bg-black
                 ">
               Discover with a video !
@@ -118,7 +145,7 @@ const techs = [
 
     </div>
      <div className="slide-container mx-32">
-        <Slide>
+        <Slide transitionDuration={500}>
          {slideImages.map((slideImage, index)=> (
             <div className="each-slide " key={index}>
                <Image className=" rounded-xl mx-auto mt-8 shadow-xl shadow-black" src={slideImage.src} alt="The Header" width={1200} height={200} >
@@ -135,7 +162,8 @@ const techs = [
             <h1  data-aos="fade-up" className="text-8xl  ml-32   mt-48 font-extrabold">What you get ! </h1>
             <ul className=" list-disc ml-40 mt-8 text-4xl mr-64">
                       <li className="mt-6 mb-6">70+ Notion pages and 500+ Anki Flashcards.</li>
-                      <li className="mt-6 mb-6"> 40+ graphics and 25+ practical examples.</li>
+                      <li className="mt-6 mb-6">Every concept you need to know to master HTML and CSS.</li >
+                      <li className="mt-6 mb-6"> 40+ graphics and 25+ practical examples that further help you.</li >
 
             </ul>
 
@@ -176,7 +204,7 @@ const techs = [
                   <button className="text-black shadow-md  bg-white dark:bg-black dark:text-white  px-7 py-5
                   rounded-md hover:scale-110 duration-300  mt-8 hover:shadow-xl hover:shadow-black hover:text-black hover:bg-white
                 ">
-              Buy now !
+              I want this !
             </button>
 
             <p className="mt-4 text-4xl">{price}</p>

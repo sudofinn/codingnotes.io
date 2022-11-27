@@ -80,10 +80,10 @@ export default function Tabs() {
               className={({ selected }) =>
                 classNames(
                   'w-full rounded-lg  text-lg py-7 hover:shadow-xl duration-500 font-extrabold shadow-black  leading-5 text-orange-700 ',
-                  'ring-white ring-opacity-60 ring-offset-4 ring-offset-blue-800 focus:outline-none focus:ring-4',
+                  'ring-white ring-opacity-60 ring-offset-4 ring-offset-teal-800 focus:outline-none focus:ring-4',
                   selected
                     ? 'bg-white shadow'
-                    : 'text-blue-400 hover:bg-white/[0.12] hover:text-black '
+                    : 'text-teal-400 hover:bg-white/[0.12] hover:text-black '
                     
                 )
                 
@@ -99,7 +99,7 @@ export default function Tabs() {
               key={idx}
               className={classNames(
                 'rounded-xl bg-white p-3',
-                'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-900 focus:outline-none focus:ring-2'
+                'ring-white ring-opacity-60 ring-offset-2 ring-offset-teal-900 focus:outline-none focus:ring-2'
               )}
             >
               <ul>
@@ -123,7 +123,7 @@ export default function Tabs() {
 
                     
                       <button className={`shadow-md hover:shadow-white bg-${post.color} text-white   px-10 py-5
-                      mt-4 rounded-md hover:scale-110 bg-gradient-to-r from-blue-400  to-red-800 hover:from-red-800 hover:to-blue-400 hover:shadow-xl hover:shadow-black  hover:bg-white duration-300 mb-8`}  >{post.date}</button>
+                      mt-4 rounded-md hover:scale-110 bg-gradient-to-r from-teal-400  to-red-800 hover:from-red-800 hover:to-blue-400 hover:shadow-xl hover:shadow-black  hover:bg-white duration-300 mb-8`}  >{post.date}</button>
                      
                       
                       {/*}

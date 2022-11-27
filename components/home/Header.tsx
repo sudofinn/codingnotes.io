@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderImage from "../../assets/engineer.svg"
+import HeaderImage from "../../assets/engineer_yellow.svg"
 import Image from "next/image"
 import useDarkMode from '../hooks/useDarkMode'
 
@@ -14,11 +14,11 @@ const Header = () => {
 
         <div className=''>
             <h1  data-aos="fade-up" className="text-8xl  ml-32  mt-48 font-extrabold">Learn to code - </h1>
-            <h1  data-aos="fade-up" className="text-7xl text-purple-800 ml-32 mt-12 font-extrabold">and never forget it !</h1>
+            <h1  data-aos="fade-up" className="text-7xl text-orange-600 ml-32 mt-12 font-extrabold">and never forget it !</h1>
 
               <button className="text-black shadow-md   dark:bg-black dark:text-white px-7 py-5
                 mx-auto  rounded-md hover:scale-110 duration-300 ml-32 mt-16
-                bg-gradient-to-r from-blue-400  to-red-800 hover:from-red-800 hover:to-blue-400 hover:shadow-xl hover:shadow-black  hover:bg-white
+                bg-gradient-to-r from-yellow-400  to-red-800 hover:from-red-800 hover:to-yellow-400 hover:shadow-xl hover:shadow-black  hover:bg-white
                 ">
               Watch a video
               {/* modal pop up video */}
