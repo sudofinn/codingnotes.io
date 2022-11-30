@@ -166,13 +166,26 @@ const techs = [
                       <li className="mt-6 mb-6"> 40+ graphics and 25+ practical examples that further help you.</li >
 
             </ul>
+             <button className="text-black shadow-md   dark:bg-black dark:text-white px-7 py-5
+                mx-auto  rounded-md hover:scale-110 duration-300 ml-32 mt-4
+                bg-gradient-to-r from-blue-500  to-orange-600 hover:from-orange-600 hover:to-blue-500 hover:shadow-xl hover:shadow-black  hover:bg-white
+                ">
+             Get Notion for free 
+            </button>
 
             <h1  data-aos="fade-up" className="text-8xl  ml-32   mt-16 font-extrabold">Why it works ! </h1>
             <ul className=" list-disc ml-40 mt-8 text-4xl mr-64">
                       <li className="mt-6 mb-6">A big collection of various topics.</li>
                       <li className="mt-6 mb-6"> Advanced algorithms to learn right.</li>
+                      
 
             </ul>
+             <button className="text-black shadow-md   dark:bg-black dark:text-white px-7 py-5
+                mx-auto  rounded-md hover:scale-110 duration-300 ml-32 mt-4
+                bg-gradient-to-r from-orange-600  to-blue-500 hover:from-blue-500 hover:to-orange-600 hover:shadow-xl hover:shadow-black  hover:bg-whit
+                ">
+             Get Anki now !
+            </button>
                       
 
               
@@ -181,7 +194,7 @@ const techs = [
 
 
         <div className=''>
-            <Image className="mt-32 mr-48   " src={FooterImage} alt="The Header"  width={1000}
+            <Image className="mt-64 mr-48   " src={FooterImage} alt="The Header"  width={1000}
             height={500}   />
       </div>
 

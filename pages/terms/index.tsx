@@ -14,7 +14,7 @@ import Image from "next/image"
 import Center from "../../assets/digital-nomad.svg"
 /* only looks good on 27 screen with image */
 
-const Markdown = () => {
+const IntroToCode = () => {
 
   const router = useRouter()
 
@@ -26,7 +26,7 @@ const Markdown = () => {
     <div className="w-full h-screen  px-6 dark:bg-white dark:text-black bg-black p-4 text-white">
 
     <Head>
-      <title>Intro to Code</title>
+      <title>Terms and Conditions</title>
       <meta name="description" content="The 404 page,an  unexisting page from the blog A Tiny Improvement. Made by Finn Guha." />
 
     </Head>
@@ -49,4 +49,4 @@ const Markdown = () => {
   )
 }
 
-export default Markdown
+export default IntroToCode

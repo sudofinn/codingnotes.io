@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from "next/head"
 
-import useDarkMode from "../components/hooks/useDarkMode"
 import { useRouter } from 'next/router';
 
 
@@ -11,13 +10,11 @@ import {
 } from 'react-icons/fa';
 
 import Image from "next/image"
-import Center from "../assets/question-mark.svg"
 
+import Center from "../assets/covers/question-mark.svg"
 /* only looks good on 27 screen with image */
 
 const Custom404 = () => {
-  const [darkTheme, setDarkTheme] = useDarkMode();
-  const handleMode = () => setDarkTheme(!darkTheme);
 
   const router = useRouter()
 
@@ -36,13 +33,6 @@ const Custom404 = () => {
 
         <h1 data-aos="fade-up" className="text-center text-7xl mb-16 mt-16">Oops, page not found !</h1>
 
-        <span onClick={handleMode} className="flex justify-center mb-16 hover:scale-110 duration-500">
-        {darkTheme ? (
-          <FaSun size='30' className='top-navigation-icon' />
-        ) : (
-          <FaMoon size='30' className='top-navigation-icon' />
-        )}
-      </span>
 
         <button onClick={navigateHome} className="text-black mt-8 shadow-md hover:shadow-white bg-white dark:bg-black
          dark:text-white hover:bg-black hover:text-white px-10 py-6

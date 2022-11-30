@@ -109,6 +109,7 @@ export default function Tabs() {
                     onClick={(() => Router.push(`${post.commentCount}`))}
                     className="relative rounded-md  hover:bg-gray-100"
                   >
+                    <Link href={post.commentCount}></Link>
                     <h1 className="text-6xl mt-4 mb-4 font-extrabold ">
                       {post.title}
                     </h1>
@@ -124,6 +125,8 @@ export default function Tabs() {
                     
                       <button className={`shadow-md hover:shadow-white bg-${post.color} text-white   px-10 py-5
                       mt-4 rounded-md hover:scale-110 bg-gradient-to-r from-teal-400  to-red-800 hover:from-red-800 hover:to-blue-400 hover:shadow-xl hover:shadow-black  hover:bg-white duration-300 mb-8`}  >{post.date}</button>
+
+                    
                      
                       
                       {/*}

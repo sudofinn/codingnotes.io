@@ -26,7 +26,7 @@ const Explain = () => {
             <button className="text-black shadow-md text-2xl  bg-white dark:bg-black dark:text-white  px-7 py-5
                   rounded-md hover:scale-110 duration-300 ml-32 mt-8 hover:shadow-xl hover:shadow-black hover:text-black hover:bg-white
                   hover:bg-gradient-to-r bg-gradient-to-r from-orange-500 to-purple-500 hover:from-purple-500 hover:to-orange-500">
-              The science of notes !
+             Get Notion ! 
             </button>
 
              
@@ -56,7 +56,7 @@ const Explain = () => {
             <button className="text-black shadow-md text-2xl bg-white dark:bg-black dark:text-white  px-7 py-5
                   rounded-md hover:scale-110 duration-300 ml-32 mt-8 hover:shadow-xl hover:shadow-black hover:text-black hover:bg-white
                 hover:bg-gradient-to-r bg-gradient-to-r from-indigo-500 to-pink-500 hover:from-pink-500 hover:to-indigo-500">
-              The science of flashcards !
+              Get Anki !
             </button>
 
              

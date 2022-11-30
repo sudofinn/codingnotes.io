@@ -3,6 +3,8 @@ import HeaderImage from "../../assets/engineer_yellow.svg"
 import Image from "next/image"
 import useDarkMode from '../hooks/useDarkMode'
 
+import Link from "next/link"
+
 
 const Header = () => {
    const [darkTheme, setDarkTheme] = useDarkMode();
@@ -14,7 +16,9 @@ const Header = () => {
 
         <div className=''>
             <h1  data-aos="fade-up" className="text-8xl  ml-32  mt-48 font-extrabold">Learn to code - </h1>
-            <h1  data-aos="fade-up" className="text-7xl text-orange-600 ml-32 mt-12 font-extrabold">and never forget it !</h1>
+            <h1   className="text-7xl text-orange-600 ml-32 mt-12 font-extrabold">and never forget it !</h1>
+               
+               <Link href="https://www.youtube.com/">
 
               <button className="text-black shadow-md   dark:bg-black dark:text-white px-7 py-5
                 mx-auto  rounded-md hover:scale-110 duration-300 ml-32 mt-16
@@ -23,12 +27,16 @@ const Header = () => {
               Watch a video
               {/* modal pop up video */}
             </button>
+               </Link>
 
-              <button className="text-black shadow-md  bg-white dark:bg-black dark:text-white  px-7 py-5
+            <Link href="/products">
+              <button  className="text-black shadow-md  bg-white dark:bg-black dark:text-white  px-7 py-5
                 mx-auto  rounded-md hover:scale-110 duration-300 ml-16 mt-16 hover:shadow-xl hover:shadow-black hover:text-black hover:bg-white
                 ">
               Discover !
             </button>
+            </Link>
+
             </div>
 
 

@@ -44,7 +44,7 @@ const NavBar : React.FC = () => {
 
         {
             id:3,
-            link: "Our Why",
+            link: "Why",
             href: "/why"
         },
 
@@ -63,7 +63,7 @@ const NavBar : React.FC = () => {
              px-4 w-full h-20 text-black bg-white fixed ">
             <div>
                 <Link href="/">
-                <h1 className="text-2xl font-signature font-bold
+                <h1 className="text-2xl font-signature font-extrabold
                             ml-32">CodingNotes</h1>
                 </Link>
             </div>
