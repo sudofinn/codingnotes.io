@@ -31,7 +31,7 @@ const Custom404 = () => {
 
     </Head>
 
-        <h1 data-aos="fade-up" className="text-center text-7xl mb-16 mt-16">Oops, page not found !</h1>
+        <h1 data-aos="fade-up" className="text-center font-extrabold text-7xl mb-16 mt-16">Oops, page not found !</h1>
 
 
         <button onClick={navigateHome} className="text-black mt-8 shadow-md hover:shadow-white bg-white dark:bg-black
