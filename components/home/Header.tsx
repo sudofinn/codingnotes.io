@@ -12,16 +12,16 @@ const Header = () => {
 
 
   return (
-      <div className='flex justify-between'>
+      <div className='flex flex-wrap  md:justify-between  '>
 
         <div className=''>
-            <h1  data-aos="fade-up" className="text-8xl  ml-32  mt-48 font-extrabold">Learn to code - </h1>
-            <h1   className="text-7xl text-orange-600 ml-32 mt-12 font-extrabold">and never forget it !</h1>
+            <h1  data-aos="fade-up" className=" text-6xl xl:text-7xl 2xl:text-8xl  text-center md:text-left ml-4    md:ml-32  mt-20 sm:mt-48 font-extrabold">Learn to code</h1>
+            <h1   className="text-4xl xl:text-5xl 2xl:text-6xl text-orange-600 text-center md:text-left  ml-0  md:ml-32 mt-4 font-extrabold">and never forget it !</h1>
                
                <Link href="https://www.youtube.com/">
 
               <button className="text-black shadow-md   dark:bg-black dark:text-white px-7 py-5
-                mx-auto  rounded-md hover:scale-110 duration-300 ml-32 mt-16
+                mx-auto   rounded-md hover:scale-110 duration-300 ml-6 md:ml-32 mt-12
                 bg-gradient-to-r from-yellow-400  to-red-800 hover:from-red-800 hover:to-yellow-400 hover:shadow-xl hover:shadow-black  hover:bg-white
                 ">
               Watch a video
@@ -41,9 +41,8 @@ const Header = () => {
 
 
 
-        <div className=''>
-            <Image className="mt-24 mr-16  " src={HeaderImage} alt="The Header"  width={700}
-            height={500}   />
+        <div className=' mx-auto md:mx-0 '>
+            <Image className="mt-8 md:mt-36 lg:mt-36 md:hidden lg:block mr-8 mx-auto text-center w-[350px] h-[400px]  lg:w-[400px] lg:h-[450px]  xl:w-[500px] xl:h-[450px] 2xl:w-[600px] 2xl:h-[550px] object-cover  " src={HeaderImage} alt="The Header"    />
       </div>
 
 

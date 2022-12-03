@@ -70,7 +70,7 @@ export default function Tabs() {
   }
 
   return (
-    <div className="w-full max-w-5xl mt-64 px-2  py-16 mx-auto sm:px-0" >
+    <div className="w-full max-w-5xl mt-32 lg:mt-64 px-4  py-16 mx-auto  " >
       <Tab.Group>
         <Tab.List className="flex space-x-1 rounded-xl  py-3 bg-blue-900/20 p-1">
           {Object.keys(categories).map((category) => (
@@ -110,11 +110,11 @@ export default function Tabs() {
                     className="relative rounded-md  hover:bg-gray-100"
                   >
                     <Link href={post.commentCount}></Link>
-                    <h1 className="text-6xl mt-4 mb-4 font-extrabold ">
+                    <h1 className=" text-4xl lg:text-5xl xl:text-6xl mt-4 mb-4 font-extrabold ">
                       {post.title}
                     </h1>
-                    <h3 className="text-3xl mt-4 mb-8">{post.shareCount} </h3>
-                    <ul className="text-2xl list-disc ml-8 mb-8">
+                    <h3 className="text-2xl lg:text-3xl mt-4 mb-8">{post.shareCount} </h3>
+                    <ul className="text-xl lg:text-2xl list-disc ml-8 mb-8">
                       <li> {post.pageAmount} + pages</li>
                       <li> {post.flashcardAmount} + flashcards</li>
                       <li> {post.visualsAmount} + visuals</li>

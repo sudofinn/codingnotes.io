@@ -63,22 +63,22 @@ const NavBar : React.FC = () => {
              px-4 w-full h-20 text-black bg-white fixed ">
             <div>
                 <Link href="/">
-                <h1 className="text-2xl font-signature font-extrabold
+                <h1 className="text-2xl font-signature hidden md:block font-extrabold
                             ml-32">CodingNotes</h1>
                 </Link>
             </div>
 
             {/* desktop */}
 
-            <ul className="hidden md:flex">
+            <ul className="hidden lg:flex">
                 
              {links.map(({ id, link, href }) => (
            <Link
             key={id}
             href={href}
-            className="px-4  cursor-pointer capitalize 
+            className="px-4  cursor-pointer capitalize transition duration-200  hover:border-b-4 border-black
              text-black hover:scale-105 mr-8
-            duration-200 font-bold" 
+             font-bold" 
             >
 
                 
@@ -95,7 +95,7 @@ const NavBar : React.FC = () => {
             {/* logic */}
             <div onClick={() => setNav(!nav)} 
             className="cursor-pointer pr-4 z-10
-             text-black md:hidden">
+             text-black lg:hidden">
                 {nav ? <FaTimes size={30} color="white" /> :<FaBars size={30} /> }
             </div>
 
@@ -104,14 +104,14 @@ const NavBar : React.FC = () => {
             {nav && (
                 <ul className="flex flex-col justify-center
                                 items-center 
-                                absolute top-0 left-0 w-full h-screen bg-black text-white">
+                                absolute top-0 left-0 w-full h-screen   bg-black  ">
 
                     {links.map(({ id, link, href }) => (
                     <Link
                         key={id}
                         href={href}
-                        className="px-4 cursor-pointer capitalize
-                                py-6 text-4xl font-bold" >
+                        className="px-4 cursor-pointer capitalize text-indigo-200 hover:text-teal-400
+                                py-6 text-4xl font-extrabold transition duration-500 hover:scale-110  hover:border-b-4" >
                         {link}
                         
                         
