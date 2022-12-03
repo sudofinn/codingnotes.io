@@ -15,11 +15,11 @@ const Header = () => {
       <div className='text-center flex justify-center'>
 
         <div className=''>
-            <h1  data-aos="fade-up" className="text-8xl   mt-16 font-extrabold">The tools  used </h1>
-            <h1  data-aos="fade-up" className="text-5xl   mt-12 font-extrabold">A notetaking app!</h1>
+            <h1  data-aos="fade-up" className="text-5xl lg:text-8xl   mt-16 font-extrabold">The tools  used </h1>
+            <h1  data-aos="fade-up" className="text-4xl lg:text-5xl   mt-12 font-extrabold">A notetaking app!</h1>
 
 
-            <p  data-aos="fade-up" className="text-3xl text-black w-[800px] mt-12 font-extrabold">Notion is a notetaking app that provides you 
+            <p  data-aos="fade-up" className="text-2xl  lg:text-3xl text-black mx-8  lg:mx-64 mt-12 font-extrabold">Notion is a notetaking app that provides you 
             with everything you need to take high-quality notes. CodingNotes uses Notion for making the notes. You can download Notion for free
             or just use it in the browser without signing up.</p>
 
@@ -49,10 +49,10 @@ const Header = () => {
       <div className='text-center flex justify-center'>
 
         <div className=''>
-            <h1  data-aos="fade-up" className="text-5xl   mt-24 font-extrabold">A flashcard app!</h1>
+            <h1  data-aos="fade-up" className="text-4xl lg:text-5xl  mt-24 font-extrabold">A flashcard app!</h1>
 
 
-            <p  data-aos="fade-up" className="text-3xl text-black  w-[800px] mt-12 font-extrabold">Anki is a flashcard app that 
+            <p  data-aos="fade-up" className="text-2xl  lg:text-3xl text-black mx-8  lg:mx-64 mt-12 font-extrabold">Anki is a flashcard app that 
             uses advanced algorithms to make learning as efficient as possible. Anki is free on almost every OS.</p>
 
             <Link href="https://apps.ankiweb.net/">
@@ -79,11 +79,11 @@ const Header = () => {
      <div className='text-center flex justify-center'>
 
         <div className=''>
-            <h1  data-aos="fade-up" className="text-5xl   mt-16 font-extrabold ">Graphics on webiste</h1>
-            <h1  data-aos="fade-up" className="text-3xl mb-4  mt-12 font-extrabold">Popsy.co</h1>
+            <h1  data-aos="fade-up" className="text-4xl lg:text-5xl   mt-16 font-extrabold ">Graphics on webiste</h1>
+            <h1  data-aos="fade-up" className="text-2xl  lg:text-3xl mb-4  mt-12 font-extrabold">Popsy.co</h1>
 
 
-            <p  data-aos="fade-up" className="text-3xl text-black w-[800px]   font-extrabold">Popsy provides 
+            <p  data-aos="fade-up" className="text-2xl  lg:text-3xl text-black  mx-8  lg:mx-64 font-extrabold">Popsy provides 
             free illustrations. I can only recommend this product. ( Source: popsy.co )</p>
 
             <Link href="https://popsy.co/illustrations">

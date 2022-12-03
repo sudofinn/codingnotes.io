@@ -13,7 +13,7 @@ const Reasons = () => {
       <div className='flex justify-center flex-wrap lg:flex-nowrap  lg:justify-between'>
 
         <div className=''>
-            <h1  data-aos="fade-up" className="text-6xl 2xl:text-8xl text-center xl:text-left ml-2 mx-2  xl:ml-32   mt-48 font-extrabold">It´s your chance ! </h1>
+            <h1  data-aos="fade-up" className="text-6xl 2xl:text-8xl  ml-2 mx-2  xl:ml-32   mt-48 font-extrabold">It´s your chance ! </h1>
             <ul className=" list-disc ml-12 xl:ml-40 mt-8 font-extrabold text-2xl 2xl:text-3xl mr-4  ">
                       <li className="mt-6 mb-6">Get access to up to hundres of pages and thousands of flashcards !</li>
                       <li className="mt-6 mb-6"> Explore advanced features by using a Notes app that instantlythe concept you need</li>

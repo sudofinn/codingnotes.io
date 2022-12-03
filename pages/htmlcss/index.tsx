@@ -84,7 +84,7 @@ const techs = [
                 <li>40+ visuals</li>
        </ul>
       </>,
-      price: "$4"
+      price: "$6"
     },
     {
       id: 2,
@@ -103,7 +103,7 @@ const techs = [
               
        </ul>
       </>,
-      price: "$7"
+      price: "$9"
     },
      {
       id: 3,
@@ -122,7 +122,7 @@ const techs = [
                 <li>Advanced algorithms to learn efficient.</li>
        </ul>
       </>,
-      price: "$4"
+      price: "$6"
     },
   ]
  
@@ -136,15 +136,15 @@ const techs = [
 
 
      <div className='text-center'>
-            <h1  data-aos="fade-up" className="text-7xl mt-8 font-extrabold">Learn the Fundamentals - HTML and CSS </h1>
-             <button className=" bg-orange-600 shadow-md shadow-black text-white  px-8 py-6
+            <h1  data-aos="fade-up" className="text-4xl lg:text-7xl mt-8 font-extrabold">Learn the Fundamentals - HTML and CSS </h1>
+             <button className=" bg-orange-600 shadow-md shadow-black text-white px-4 py-3 lg:px-8 lg:py-6
                 mx-auto  rounded-md hover:scale-110 duration-300 mt-8 hover:shadow-xl hover:shadow-black hover:text-white hover:bg-black
                 ">
               Discover with a video !
             </button>
 
     </div>
-     <div className="slide-container mx-32">
+     <div className="slide-container mt-8 lg:mt-0 mx-4 lg:mx-32">
         <Slide transitionDuration={500}>
          {slideImages.map((slideImage, index)=> (
             <div className="each-slide " key={index}>
@@ -156,32 +156,32 @@ const techs = [
         </Slide>
       </div>
 
-        <div className='flex justify-between'>
+        <div className='flex flex-wrap lg:flex-nowrap justify-between'>
 
         <div className=''>
-            <h1  data-aos="fade-up" className="text-8xl  ml-32   mt-48 font-extrabold">What you get ! </h1>
-            <ul className=" list-disc ml-40 mt-8 text-4xl mr-64">
+            <h1  data-aos="fade-up" className="text-6xl xl:text-8xl  ml-8 xl:ml-32   mt-48 font-extrabold">What you get ! </h1>
+            <ul className=" list-disc  ml-16 xl:ml-32 mt-8 text-2xl xl:text-4xl mr-8 xl:mr-32">
                       <li className="mt-6 mb-6">70+ Notion pages and 500+ Anki Flashcards.</li>
                       <li className="mt-6 mb-6">Every concept you need to know to master HTML and CSS.</li >
                       <li className="mt-6 mb-6"> 40+ graphics and 25+ practical examples that further help you.</li >
 
             </ul>
              <button className="text-black shadow-md   dark:bg-black dark:text-white px-7 py-5
-                mx-auto  rounded-md hover:scale-110 duration-300 ml-32 mt-4
+                mx-auto  rounded-md hover:scale-110 duration-300 ml-16 xl:ml-32 mt-4
                 bg-gradient-to-r from-blue-500  to-orange-600 hover:from-orange-600 hover:to-blue-500 hover:shadow-xl hover:shadow-black  hover:bg-white
                 ">
              Get Notion for free 
             </button>
 
-            <h1  data-aos="fade-up" className="text-8xl  ml-32   mt-16 font-extrabold">Why it works ! </h1>
-            <ul className=" list-disc ml-40 mt-8 text-4xl mr-64">
+            <h1  data-aos="fade-up" className="text-6xl xl:text-8xl  ml-8 xl:ml-32    mt-24 font-extrabold">Why it works ! </h1>
+            <ul className=" list-disc ml-16 xl:ml-32 mt-8 text-2xl xl:text-4xl mr-8 xl:mr-32">
                       <li className="mt-6 mb-6">A big collection of various topics.</li>
                       <li className="mt-6 mb-6"> Advanced algorithms to learn right.</li>
                       
 
             </ul>
              <button className="text-black shadow-md   dark:bg-black dark:text-white px-7 py-5
-                mx-auto  rounded-md hover:scale-110 duration-300 ml-32 mt-4
+                mx-auto  rounded-md hover:scale-110 duration-300 ml-16 xl:ml-32 mt-4
                 bg-gradient-to-r from-orange-600  to-blue-500 hover:from-blue-500 hover:to-orange-600 hover:shadow-xl hover:shadow-black  hover:bg-whit
                 ">
              Get Anki now !
@@ -194,19 +194,18 @@ const techs = [
 
 
         <div className=''>
-            <Image className="mt-64 mr-48   " src={FooterImage} alt="The Header"  width={1000}
-            height={500}   />
+            <Image className=" mt-4 md:mt-32 xl:mt-64  w-[800px] h-[600px]   2xl:w-[1000px] 2xl:h-[800px]  " src={FooterImage} alt="The Header"     />
       </div>
 
 
     </div>
 
 
-        <div className=" grid grid-cols-1 sm:grid-cols-3  mt-32 text-center py-8 px-12 sm:px-0 cursor-pointer">
+        <div className=" grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3  mt-32 text-center  sm:px-0 cursor-pointer">
           {techs.map(({ id, src, title, style, href , icon , text , price}) => (
             <div
               key={id}
-              className={`shadow-xl mx-16 hover:shadow-md hover:bg-gray-100 text-black h-96 hover:scale-110 duration-500 py-2 rounded-xl ${style}`}
+              className={`shadow-xl mx-8  lg:mx-16 mb-12 hover:shadow-md hover:bg-gray-100 text-black h-96 hover:scale-110 duration-500 py-2 rounded-xl ${style}`}
               onClick={(() => Router.push(`${href}`))}
             >
               <h1   className="w-16 mx-auto mt-8 mb-6"> {icon} </h1>

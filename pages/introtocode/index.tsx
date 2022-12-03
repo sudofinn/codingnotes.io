@@ -31,12 +31,12 @@ const IntroToCode = () => {
 
     </Head>
 
-        <h1 data-aos="fade-up" className="text-center font-extrabold text-7xl mb-16 mt-16">Still in development</h1>
+        <h1 data-aos="fade-up" className="text-center font-extrabold text-5xl  lg:text-7xl mb-16 mt-16">Still in development</h1>
 
 
         <button onClick={navigateHome} className="text-black mt-8 shadow-md hover:shadow-white bg-white dark:bg-black
-         dark:text-white hover:bg-black hover:text-white px-10 py-6
-             mx-auto flex  items-center text-2xl rounded-md hover:scale-110 duration-300">
+         dark:text-white hover:bg-black hover:text-white px-6 py-5 lg:px-10 lg:py-6
+             mx-auto flex  items-center text-xl lg:text-2xl rounded-md hover:scale-110 duration-300">
             Jump to other products
         </button>
 

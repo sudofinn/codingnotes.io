@@ -14,7 +14,7 @@ import Image from "next/image"
 import Center from "../../assets/digital-nomad.svg"
 /* only looks good on 27 screen with image */
 
-const Markdown = () => {
+const ThreeJS = () => {
 
   const router = useRouter()
 
@@ -26,17 +26,17 @@ const Markdown = () => {
     <div className="w-full h-screen  px-6 dark:bg-white dark:text-black bg-black p-4 text-white">
 
     <Head>
-      <title>Intro to Code</title>
+      <title>Markdown</title>
       <meta name="description" content="The 404 page,an  unexisting page from the blog A Tiny Improvement. Made by Finn Guha." />
 
     </Head>
 
-        <h1 data-aos="fade-up" className="text-center font-extrabold text-7xl mb-16 mt-16">Still in development</h1>
+        <h1 data-aos="fade-up" className="text-center font-extrabold text-5xl  lg:text-7xl mb-16 mt-16">Still in development</h1>
 
 
         <button onClick={navigateHome} className="text-black mt-8 shadow-md hover:shadow-white bg-white dark:bg-black
-         dark:text-white hover:bg-black hover:text-white px-10 py-6
-             mx-auto flex  items-center text-2xl rounded-md hover:scale-110 duration-300">
+         dark:text-white hover:bg-black hover:text-white px-6 py-5 lg:px-10 lg:py-6
+             mx-auto flex  items-center text-xl lg:text-2xl rounded-md hover:scale-110 duration-300">
             Jump to other products
         </button>
 
@@ -49,4 +49,4 @@ const Markdown = () => {
   )
 }
 
-export default Markdown
+export default ThreeJS

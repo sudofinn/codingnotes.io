@@ -51,13 +51,13 @@ const Templates = () => {
     >
       <div className="max-w-screen-lg mx-auto pt-12 text-center p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="mx-auto">
-          <h1 className="text-8xl font-extrabold text-white   p-2 inline ">
+          <h1 className="text-7xl lg:text-8xl font-extrabold text-white   p-2 inline ">
             Templates
           </h1>
           <p className="py-8 text-center font-extrabold text-2xl">The systems that provide you with efficient coding. </p>
         </div>
 
-        <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-16 text-center py-8 px-12 sm:px-0 cursor-pointer">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 text-center py-8 px-12 sm:px-0 cursor-pointer">
           {techs.map(({ id, src, title, style, href }) => (
             <div
               key={id}

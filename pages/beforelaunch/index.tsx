@@ -35,7 +35,7 @@ const BeforeLaunch = () => {
 
     </Head>
 
-        <h1 data-aos="fade-up" className="text-center font-extrabold text-7xl mb-8 mt-8">Launch is on the 10th December !</h1>
+        <h1 data-aos="fade-up" className="text-center font-extrabold text-6xl lg:text-7xl mb-8 mt-8">Launch is on the 10th December !</h1>
 
         <h1 data-aos="fade-up" className="text-center mb-4 text-transparent bg-clip-text  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500   font-extrabold text-4xl mt-16">Get notified on launch day ! </h1>
 
