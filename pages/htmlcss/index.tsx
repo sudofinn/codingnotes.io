@@ -201,7 +201,7 @@ const techs = [
     </div>
 
 
-        <div className=" grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3  mt-32 text-center  sm:px-0 cursor-pointer">
+        <div className=" grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-32 text-center  sm:px-0 cursor-pointer">
           {techs.map(({ id, src, title, style, href , icon , text , price}) => (
             <div
               key={id}

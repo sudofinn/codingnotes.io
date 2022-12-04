@@ -90,15 +90,16 @@ const Products = () => {
     Router.push("/")
     
   }
+  // -mr-8 seems to fix whitespace right */
 
   return (
     <div
       
-      className="bg-black  min-h-screen "
+      className="bg-black -mr-8  "
     >
-      <div className="max-w-screen-lg mx-auto pt-12 text-center p-4 flex flex-col justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg mx-auto pt-12  text-center  p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="mx-auto">
-          <h1 className="text-7xl  lg:text-8xl font-extrabold text-white   p-2 inline ">
+          <h1 className="text-6xl  lg:text-8xl  font-extrabold text-white   p-2 inline ">
             Products
           </h1>
           <p className="py-8 text-center mx-6 font-extrabold text-2xl">The notes and flashcards that can make you a better developer. </p>

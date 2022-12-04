@@ -20,8 +20,8 @@ const Header = () => {
                
                <Link href="https://www.youtube.com/">
 
-              <button className="text-black shadow-md   dark:bg-black dark:text-white px-7 py-5
-                mx-auto   rounded-md hover:scale-110 duration-300 ml-6 md:ml-32 mt-12
+              <button className="text-black shadow-md   dark:bg-black dark:text-white px-3 py-4 lg:px-7 lg:py-5
+                mx-auto   rounded-md hover:scale-110 duration-300 ml-8 max-[380px]:ml-6 max-[390px]:ml-4 md:ml-32 mt-12
                 bg-gradient-to-r from-yellow-400  to-red-800 hover:from-red-800 hover:to-yellow-400 hover:shadow-xl hover:shadow-black  hover:bg-white
                 ">
               Watch a video
@@ -30,7 +30,7 @@ const Header = () => {
                </Link>
 
             <Link href="/products">
-              <button  className="text-black shadow-md  bg-white dark:bg-black dark:text-white  px-7 py-5
+              <button  className="text-black shadow-md  bg-white dark:bg-black dark:text-white  px-3 py-4 lg:px-7 lg:py-5
                 mx-auto  rounded-md hover:scale-110 duration-300 ml-16 mt-16 hover:shadow-xl hover:shadow-black hover:text-black hover:bg-white
                 ">
               Discover !
