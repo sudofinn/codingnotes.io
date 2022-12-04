@@ -12,6 +12,8 @@ import threejs from "../../assets/threejs.svg"
 import vim from "../../assets/vim-original.svg"
 import markdown from "../../assets/markdown-original.svg"
 
+import Head from 'next/head'
+
 
 /* price tag somwhere probably should be added */
 
@@ -94,9 +96,14 @@ const Products = () => {
 
   return (
     <div
+    
       
       className="bg-black  min-h-screen -mr-8  "
     >
+        <Head>
+      <title>Products</title>
+      <meta name="description" content="." />
+    </Head>
       <div className="max-w-screen-lg mx-auto pt-12  text-center  p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="mx-auto">
           <h1 className="text-6xl  lg:text-8xl  font-extrabold text-white   p-2 inline ">

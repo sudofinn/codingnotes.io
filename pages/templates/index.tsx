@@ -6,7 +6,7 @@ import first from "../../assets/covers/github.png"
 import second from "../../assets/covers/github.png"
 import third from  "../../assets/covers/github.png"
 
-
+import Head from 'next/head'
 
 /* price tag somwhere probably should be added */
 
@@ -49,6 +49,10 @@ const Templates = () => {
       
       className="bg-black min-h-screen -mr-8  "
     >
+        <Head>
+      <title>Templates</title>
+      <meta name="description" content="." />
+    </Head>
       <div className="max-w-screen-lg mx-auto pt-12 text-center p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="mx-auto">
           <h1 className="text-6xl lg:text-8xl font-extrabold text-white   p-2  ">

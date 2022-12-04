@@ -3,11 +3,17 @@ import HeaderImage from "../../assets/web-design_gray.svg"
 import SecondHeaderImage from "../../assets/microphone.svg"
 import Image from "next/image"
 
+import Head from "next/head"
+
 const Reasons = () => {
 
 
   return (
       <div className='flex flex-wrap xl:flex-nowrap  xl:justify-between '>
+         <Head>
+      <title>Founder</title>
+      <meta name="description" content="." />
+    </Head>
 
         <div className=''>
             <h1  data-aos="fade-up" className="text-6xl text-center  lg:text-8xl  lg:ml-32  xl:text-left  mt-16 font-extrabold">About me </h1>

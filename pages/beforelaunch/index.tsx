@@ -43,7 +43,8 @@ const BeforeLaunch = () => {
 
         <div className=" flex justify-center items-center">
 
-          <form
+          <form action= {process.env.NEXT_PUBLIC_KEY}
+              method="POST"
               
             className=" flex flex-col w-full md:w-1/2 "
           >

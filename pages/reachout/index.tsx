@@ -13,7 +13,7 @@ const Index = () => {
 
 
   return (
-    <div className="w-full h-screen dark:bg-white dark:text-black bg-black p-4 text-white">
+    <div className="w-full h-screen dark:bg-white  bg-black p-4 text-black">
 
     <Head>
       <title>Reach out</title>
@@ -31,7 +31,8 @@ const Index = () => {
 
         <div className=" flex justify-center items-center">
 
-          <form
+          <form action= {process.env.NEXT_PUBLIC_KEY}
+              method="POST"
               
             className=" flex flex-col w-full md:w-1/2"
           >
@@ -39,13 +40,13 @@ const Index = () => {
               type="text"
               name="name"
               placeholder="Enter your name"
-              className="p-2 bg-gradient-to-r text-black from-blue-500 to-purple-400 border-2 dark:border-black rounded-md focus:outline-none"
+              className="p-2 bg-gradient-to-r text-black dark:text-white from-blue-500 to-purple-400 border-2 dark:border-black rounded-md focus:outline-none"
             />
             <input
               type="text"
               name="email"
               placeholder="Enter your email"
-              className="my-4 p-2 bg-gradient-to-r from-purple-400 to-blue-500 border-2  dark:border-black rounded-md text-black focus:outline-none"
+              className="my-4 p-2 text-white bg-gradient-to-r from-purple-400 to-blue-500 border-2  dark:border-black rounded-md  focus:outline-none"
             />
             <textarea
               name="message"

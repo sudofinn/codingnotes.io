@@ -15,6 +15,10 @@ import Footer from '../components/home/Footer'
 export default function Home() {
   return (
     <div>
+       <Head>
+      <title>CodingNotes</title>
+      <meta name="description" content="." />
+    </Head>
       <Navbar />
       <Header />
       <Best />
