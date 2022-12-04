@@ -38,13 +38,13 @@ const Index = () => {
           >
             <input
               type="text"
-              name="name"
+              name="Name"
               placeholder="Enter your name"
               className="p-2 bg-gradient-to-r text-black dark:text-white from-blue-500 to-purple-400 border-2 dark:border-black rounded-md focus:outline-none"
             />
             <input
               type="text"
-              name="email"
+              name="Email"
               placeholder="Enter your email"
               className="my-4 p-2 text-white bg-gradient-to-r from-purple-400 to-blue-500 border-2  dark:border-black rounded-md  focus:outline-none"
             />
