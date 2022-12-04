@@ -95,7 +95,7 @@ const Products = () => {
   return (
     <div
       
-      className="bg-black -mr-8  "
+      className="bg-black  min-h-screen -mr-8  "
     >
       <div className="max-w-screen-lg mx-auto pt-12  text-center  p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="mx-auto">
