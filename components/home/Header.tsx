@@ -18,13 +18,13 @@ const Header = () => {
             <h1  data-aos="fade-up" className=" text-6xl xl:text-7xl 2xl:text-8xl  text-center md:text-left ml-4    md:ml-32  mt-20 sm:mt-48 font-extrabold">Learn to code</h1>
             <h1   className="text-4xl xl:text-5xl 2xl:text-6xl text-orange-600 text-center md:text-left  ml-0  md:ml-32 mt-4 font-extrabold">and never forget it !</h1>
                
-               <Link href="https://www.youtube.com/">
+               <Link href="/why">
 
               <button className="text-black shadow-md   dark:bg-black dark:text-white px-3 py-4 lg:px-7 lg:py-5
                 mx-auto   rounded-md hover:scale-110 duration-300 ml-8 max-[380px]:ml-6 max-[390px]:ml-4 md:ml-32 mt-12
                 bg-gradient-to-r from-yellow-400  to-red-800 hover:from-red-800 hover:to-yellow-400 hover:shadow-xl hover:shadow-black  hover:bg-white
                 ">
-              Watch a video
+              The Why
               {/* modal pop up video */}
             </button>
                </Link>

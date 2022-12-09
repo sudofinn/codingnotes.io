@@ -43,7 +43,7 @@ const techs = [
       src: html,
       title: "Notes",
       style: "shadow-black bg-gradient-to-r from-gray-400 to-green-600",
-      href: "/beforelaunch",
+      href: "https://vimfinn.gumroad.com/l/programmingmoodboardorganizer",
       icon: 
       <>
         <GrNotes size={70} />
@@ -71,11 +71,14 @@ const techs = [
 
      <div className='text-center'>
             <h1  data-aos="fade-up" className="text-4xl lg:text-7xl mt-8 font-extrabold">Moodboard and Organizer</h1>
+
+            <Link href="https://vimfinn.gumroad.com/l/programmingmoodboardorganizer">
              <button className=" bg-green-300 shadow-md shadow-black text-white px-4 py-3 lg:px-8 lg:py-6
                 mx-auto  rounded-md hover:scale-110 duration-300 mt-8 hover:shadow-xl hover:shadow-black hover:text-white hover:bg-black
                 ">
-              Discover with a video !
+              Discover this template
             </button>
+            </Link>
 
     </div>
      <div className="slide-container mt-8 lg:mt-0 mx-4 lg:mx-32">
@@ -109,12 +112,14 @@ const techs = [
                       
 
             </ul>
+            <Link href="https://www.notion.so/pricing">
              <button className="text-black shadow-md   dark:bg-black dark:text-white px-7 py-5
                 mx-auto  rounded-md hover:scale-110 duration-300 ml-16 xl:ml-32 mt-4
                 bg-gradient-to-r from-gray-400 to-green-600 hover:from-green-600 hover:to-gray-400 hover:shadow-xl hover:shadow-black  hover:bg-whit
                 ">
              Get Notion now !
             </button>
+            </Link>
                       
 
               

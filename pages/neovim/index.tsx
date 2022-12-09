@@ -19,13 +19,12 @@ import css from "../../assets/css.png";
 import javascript from "../../assets/javascript.png";
 
 import First from "../../assets/covers/vim_1.png"
-import Second from "../../assets/covers/vim_2.png"
+import Second from "../../assets/covers/vim_2_final.png"
 import Third from "../../assets/covers/vim_3.png"
 import Forth from "../../assets/covers/vim_4.png"
 import Fifth from "../../assets/covers/vim_5.png"
 import Six from "../../assets/covers/vim_6.png"
 import Seven from "../../assets/covers/vim_7.png"
-import Eight from "../../assets/covers/vim_8.png"
 
 
 
@@ -60,10 +59,7 @@ const Index = () => {
     src: Seven,
     caption: 'Slide 7'
   },
-  {
-    src: Eight,
-    caption: 'Slide 8'
-  },
+ 
 ];
 
 const techs = [
@@ -72,7 +68,7 @@ const techs = [
       src: html,
       title: "Notes",
       style: "shadow-black",
-      href: "/beforelaunch",
+      href: "https://vimfinn.gumroad.com/l/vim",
       icon: 
       <>
         <GrNotes size={70} />
@@ -81,7 +77,7 @@ const techs = [
       <>
       <ul>
                 <li >30 + pages</li>
-                <li>15+ visuals</li>
+                <li>10 + visuals</li>
        </ul>
       </>,
       price: "$3"
@@ -91,7 +87,7 @@ const techs = [
       src: css,
       title: "Both",
       style: "shadow-black bg-gradient-to-r from-gray-500 to-green-600",
-      href: "/beforelaunch",
+      href: "https://vimfinn.gumroad.com/l/vim",
        icon: 
       <>
         <GiCutDiamond size={70} />
@@ -110,7 +106,7 @@ const techs = [
       src: javascript,
       title: "Flashcards",
       style: "shadow-black ",
-      href: "/beforelaunch",
+      href: "https://vimfinn.gumroad.com/l/vim",
        icon: 
       <>
         <BsPen size={70} />
@@ -137,11 +133,13 @@ const techs = [
 
      <div className='text-center'>
             <h1  data-aos="fade-up" className="text-4xl lg:text-7xl mt-8 font-extrabold">Learn the editors for the pros !</h1>
+            <Link href="https://vimfinn.gumroad.com/l/vim">
              <button className=" bg-green-600 shadow-md shadow-black text-white px-4 py-3 lg:px-8 lg:py-6
                 mx-auto  rounded-md hover:scale-110 duration-300 mt-8 hover:shadow-xl hover:shadow-black hover:text-white hover:bg-black
                 ">
-              Discover with a video !
+              Discover the language
             </button>
+            </Link>
 
     </div>
      <div className="slide-container mt-8 lg:mt-0 mx-4 lg:mx-32">
@@ -163,15 +161,17 @@ const techs = [
             <ul className=" list-disc  ml-16 xl:ml-32 mt-8 text-2xl xl:text-4xl mr-8 xl:mr-32">
                       <li className="mt-6 mb-6">30+ Notion pages and 250+ Anki Flashcards.</li>
                       <li className="mt-6 mb-6">Every concept you need to know to master Vim and Neovim.</li >
-                      <li className="mt-6 mb-6"> 15+ graphics and 30+ practical examples that further help you.</li >
+                      <li className="mt-6 mb-6"> 10+ graphics and 20+ practical examples that further help you.</li >
 
             </ul>
+            <Link href="https://www.notion.so/pricing">
              <button className="text-black shadow-md   dark:bg-black dark:text-white px-7 py-5
                 mx-auto  rounded-md hover:scale-110 duration-300 ml-16 xl:ml-32 mt-4
                 bg-gradient-to-r from-green-600 to-gray-500   hover:from-gray-500 hover:to-green-600 hover:shadow-xl hover:shadow-black  hover:bg-white
                 ">
              Get Notion for free 
             </button>
+            </Link>
 
             <h1  data-aos="fade-up" className="text-6xl xl:text-8xl  ml-8 xl:ml-32    mt-24 font-extrabold">Why it works ! </h1>
             <ul className=" list-disc ml-16 xl:ml-32 mt-8 text-2xl xl:text-4xl mr-8 xl:mr-32">
@@ -180,12 +180,14 @@ const techs = [
                       
 
             </ul>
+            <Link href="https://apps.ankiweb.net/">
              <button className="text-black shadow-md   dark:bg-black dark:text-white px-7 py-5
                 mx-auto  rounded-md hover:scale-110 duration-300 ml-16 xl:ml-32 mt-4
                 bg-gradient-to-r from-gray-500  to-green-600 hover:from-green-600 hover:to-gray-500 hover:shadow-xl hover:shadow-black  hover:bg-whit
                 ">
              Get Anki now !
             </button>
+            </Link>
                       
 
               

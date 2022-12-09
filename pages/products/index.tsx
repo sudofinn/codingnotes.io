@@ -12,6 +12,8 @@ import threejs from "../../assets/threejs.svg"
 import vim from "../../assets/vim-original.svg"
 import markdown from "../../assets/markdown-original.svg"
 
+import first from "../../assets/covers/github.png"
+
 import Head from 'next/head'
 
 
@@ -58,13 +60,7 @@ const Products = () => {
       href: "/nextjs"
     },
    
-    {
-      id: 6,
-      src: threejs,
-      title: "ThreeJS",
-      style: "shadow-white",
-      href: "/threejs"
-    }, 
+    
     {
       id: 6,
       src: vim,
@@ -72,16 +68,18 @@ const Products = () => {
       style: "shadow-green-600",
       href: "/neovim"
     }, 
+   
     {
       id: 6,
-      src: threejs,
-      title: "Introduction to Code",
+      src: first,
+      title: "Frontend Bundle",
       style: "shadow-purple-600",
-      href: "/introtocode"
+      href: "/markdown"
     }, 
+
     {
       id: 6,
-      src: threejs,
+      src: first,
       title: "Markdown",
       style: "shadow-white",
       href: "/markdown"
