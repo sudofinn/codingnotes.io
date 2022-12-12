@@ -44,8 +44,8 @@ const techs = [
       id: 1,
       src: html,
       title: "The OS",
-      style: "shadow-black bg-gradient-to-r from-gray-300 to-black",
-      href: "https://vimfinn.gumroad.com/l/monofocus",
+      style: "shadow-black bg-gradient-to-r from-purple-500 to-orange-200",
+      href: "https://vimfinn.gumroad.com/l/simpledashboard?wanted=true",
       icon: 
       <>
         <GrNotes size={70} />
@@ -57,7 +57,7 @@ const techs = [
               
        </ul>
       </>,
-      price: "$7"
+      price: "$0"
     },
     
   ]
@@ -74,7 +74,7 @@ const techs = [
      <div className='text-center'>
             <h1  data-aos="fade-up" className="text-4xl lg:text-7xl mt-8 font-extrabold">The Simple Dashboard</h1>
             <Link href="https://vimfinn.gumroad.com/l/monofocus">
-             <button className=" bg-gray-300 shadow-md shadow-black text-white px-4 py-3 lg:px-8 lg:py-6
+             <button className=" bg-gradient-to-r from-purple-500 to-orange-300 shadow-md shadow-black text-white px-4 py-3 lg:px-8 lg:py-6
                 mx-auto  rounded-md hover:scale-110 duration-300 mt-8 hover:shadow-xl hover:shadow-black hover:text-white hover:bg-black
                 ">
               Discover this template

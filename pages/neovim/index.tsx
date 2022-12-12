@@ -68,7 +68,7 @@ const techs = [
       src: html,
       title: "Notes",
       style: "shadow-black",
-      href: "https://vimfinn.gumroad.com/l/vim",
+      href: "https://vimfinn.gumroad.com/l/vim?option=0fT1ZJdCKDm3GC5PQYDANA%3D%3D&_gl=1*uqbq2b*_ga*NjU1NjY0OTk2LjE2NDgwNjQ1Nzc.*_ga_6LJN6D94N6*MTY3MDg2NDY3NS4xOTQuMS4xNjcwODY3MzY0LjAuMC4w&wanted=true",
       icon: 
       <>
         <GrNotes size={70} />
@@ -87,7 +87,7 @@ const techs = [
       src: css,
       title: "Both",
       style: "shadow-black bg-gradient-to-r from-gray-500 to-green-600",
-      href: "https://vimfinn.gumroad.com/l/vim",
+      href: "https://vimfinn.gumroad.com/l/vim?wanted=true",
        icon: 
       <>
         <GiCutDiamond size={70} />
@@ -106,7 +106,7 @@ const techs = [
       src: javascript,
       title: "Flashcards",
       style: "shadow-black ",
-      href: "https://vimfinn.gumroad.com/l/vim",
+      href: "https://vimfinn.gumroad.com/l/vim?option=xHxqI3SwXOPnyjOoje4YaQ%3D%3D&_gl=1*1xtr2qf*_ga*NjU1NjY0OTk2LjE2NDgwNjQ1Nzc.*_ga_6LJN6D94N6*MTY3MDg2NDY3NS4xOTQuMS4xNjcwODY3MzY0LjAuMC4w&wanted=true",
        icon: 
       <>
         <BsPen size={70} />

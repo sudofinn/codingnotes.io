@@ -39,7 +39,7 @@ const techs = [
       src: html,
       title: "The Template",
       style: "shadow-black bg-gradient-to-r from-gray-300 to-purple-800",
-      href: "/beforelaunch",
+      href: "https://vimfinn.gumroad.com/l/journalmonofocus?wanted=true",
       icon: 
       <>
         <GrNotes size={70} />
@@ -51,7 +51,7 @@ const techs = [
               
        </ul>
       </>,
-      price: "$2"
+      price: "$0"
     },
     
   ]

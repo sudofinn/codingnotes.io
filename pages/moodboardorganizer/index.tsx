@@ -41,9 +41,9 @@ const techs = [
     {
       id: 1,
       src: html,
-      title: "Notes",
+      title: "Notion",
       style: "shadow-black bg-gradient-to-r from-gray-400 to-green-600",
-      href: "https://vimfinn.gumroad.com/l/programmingmoodboardorganizer",
+      href: "https://vimfinn.gumroad.com/l/programmingmoodboardorganizer?wanted=true",
       icon: 
       <>
         <GrNotes size={70} />

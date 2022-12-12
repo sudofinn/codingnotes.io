@@ -73,7 +73,7 @@ const techs = [
       src: html,
       title: "The OS",
       style: "shadow-black bg-gradient-to-r from-gray-300 to-black",
-      href: "https://vimfinn.gumroad.com/l/monofocus",
+      href: "https://vimfinn.gumroad.com/l/monofocus?wanted=true",
       icon: 
       <>
         <GrNotes size={70} />

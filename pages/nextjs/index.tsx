@@ -68,7 +68,7 @@ const techs = [
       src: html,
       title: "Notes",
       style: "shadow-black",
-      href: "https://vimfinn.gumroad.com/l/next",
+      href: "https://vimfinn.gumroad.com/l/next?wanted=true",
       icon: 
       <>
         <GrNotes size={70} />
@@ -80,14 +80,14 @@ const techs = [
                 <li>15+ visuals</li>
        </ul>
       </>,
-      price: "$2"
+      price: "$3"
     },
     {
       id: 2,
       src: css,
       title: "Both",
       style: "shadow-black bg-gradient-to-r from-gray-300 to-gray-600",
-      href: "https://vimfinn.gumroad.com/l/next",
+      href: "/development",
        icon: 
       <>
         <GiCutDiamond size={70} />
@@ -99,14 +99,14 @@ const techs = [
               
        </ul>
       </>,
-      price: "$3"
+      price: "$4"
     },
      {
       id: 3,
       src: javascript,
       title: "Flashcards",
       style: "shadow-black ",
-      href: "https://vimfinn.gumroad.com/l/next",
+      href: "/development",
        icon: 
       <>
         <BsPen size={70} />
@@ -118,7 +118,7 @@ const techs = [
                 <li>Advanced algorithms to learn efficient.</li>
        </ul>
       </>,
-      price: "$2"
+      price: "$3"
     },
   ]
  

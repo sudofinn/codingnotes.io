@@ -2,13 +2,13 @@ import React from 'react'
 
 const Terms = () => {
   return (
-    <div className="mx-24">
+    <div className="mx-6 lg:mx-24 ">
 
 
 
 
 
-<h1 className="text-5xl font-extrabold mt-24">TABLE OF CONTENTS </h1>
+<h1 className="text-5xl font-extrabold mt-24 bg-gradient-to-r   ">TABLE OF CONTENTS </h1>
 
 <ul className="my-4">
 <li>1. AGREEMENT TO TERMS </li>
@@ -244,7 +244,7 @@ We cannot guarantee the Site will be available at all times. We may experience h
 
 <h3 className="text-3xl font-extrabold mt-24">
 figuzwei127@gmail.com
-These terms of use were created using Termly&aposs Terms and Conditions Generator.
+These terms of use were created using Termly`s  Terms and Conditions Generator.
 </h3>
 
 

@@ -29,6 +29,8 @@ import Seven from "../../assets/covers/htmlcss5.png"
 
 
 
+
+
 const Index = () => {
 
   const slideImages = [
@@ -68,7 +70,7 @@ const techs = [
       src: html,
       title: "Notes",
       style: "shadow-black",
-      href: "/https://vimfinn.gumroad.com/l/htmlcss",
+      href: "https://vimfinn.gumroad.com/l/htmlcss?option=1rFbZEetUSf32P5RZ8qMfg%3D%3D&_gl=1*1hvhszp*_ga*NjU1NjY0OTk2LjE2NDgwNjQ1Nzc.*_ga_6LJN6D94N6*MTY3MDg2NDY3NS4xOTQuMS4xNjcwODY2MzI0LjAuMC4w&wanted=true",
       icon: 
       <>
         <GrNotes size={70} />
@@ -87,7 +89,7 @@ const techs = [
       src: css,
       title: "Both",
       style: "shadow-black bg-gradient-to-r from-blue-500 to-orange-600",
-      href: "https://vimfinn.gumroad.com/l/htmlcss",
+      href: "https://vimfinn.gumroad.com/l/htmlcss?wanted=true",
        icon: 
       <>
         <GiCutDiamond size={70} />
@@ -106,7 +108,7 @@ const techs = [
       src: javascript,
       title: "Flashcards",
       style: "shadow-black ",
-      href: "https://vimfinn.gumroad.com/l/htmlcss",
+      href: "https://vimfinn.gumroad.com/l/htmlcss?option=T0h1Sg9nObNZtLPR-cy07Q%3D%3D&_gl=1*1a2sv6n*_ga*NjU1NjY0OTk2LjE2NDgwNjQ1Nzc.*_ga_6LJN6D94N6*MTY3MDg2NDY3NS4xOTQuMS4xNjcwODY2MzI0LjAuMC4w&wanted=true",
        icon: 
       <>
         <BsPen size={70} />
@@ -222,6 +224,7 @@ const techs = [
                 ">
               I want this !
             </button>
+            
 
             <p className="mt-4 text-4xl">{price}</p>
               
