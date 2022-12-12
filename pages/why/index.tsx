@@ -21,7 +21,7 @@ const Reasons = () => {
 
             <div className=''>
             <ul className=" list-disc mx-8 lg:ml-32  mt-8 text-4xl mr-8  xl:mr-64">
-                      <p className=" bg-gradient-to-r p-4 from-blue-500 to-pink-500 mt-6 mb-6">Hello, I am Finn. I love coding, reading and listening to lofi 
+                      <p className=" bg-gradient-to-r p-4 from-blue-500 to-pink-500 mt-6 mb-6">Hello, I am Finn Guha . I love coding, reading and listening to lofi 
                       while doing so. </p>
              </ul>
             <ul className=" list-disc mx-8 lg:ml-32  mt-8 text-4xl mr-8  xl:mr-64">
