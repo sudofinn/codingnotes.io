@@ -36,6 +36,14 @@ const Templates = () => {
       style: "shadow-purple-500",
       href: "/journalhabittracker"
     },
+
+     {
+      id: 3,
+      src: third,
+      title: "Simple Dashboard",
+      style: "shadow-amber-700",
+      href: "/simpledashboard"
+    },
      
   ];
 
