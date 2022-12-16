@@ -17,7 +17,7 @@ const Index = () => {
 
     <Head>
       <title>Reach out</title>
-      <meta name="description" content="." />
+      <meta name="description" content="Contact CodingNotes" />
     </Head>
 
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">

@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from "next/link"
+import Head from "next/head"
 
 import FooterImage from "../../assets/web-design_orange.svg"
 
@@ -129,6 +130,10 @@ const techs = [
   return (
 
     <div>
+         <Head>
+      <title>HTML and CSS</title>
+      <meta name="description" content="HTML and CSS Notes and Flashcards" />
+    </Head>
 
     
 

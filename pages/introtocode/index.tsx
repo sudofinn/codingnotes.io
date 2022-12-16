@@ -27,7 +27,7 @@ const IntroToCode = () => {
 
     <Head>
       <title>Intro to Code</title>
-      <meta name="description" content="The 404 page,an  unexisting page from the blog A Tiny Improvement. Made by Finn Guha." />
+      <meta name="description" content="An introduction to coding." />
 
     </Head>
 

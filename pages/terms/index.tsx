@@ -1,8 +1,15 @@
 import React from 'react'
+import Head from "next/head"
 
 const Terms = () => {
   return (
     <div className="mx-6 lg:mx-24 ">
+
+    <Head>
+      <title>Terms and Conditions</title>
+      <meta name="description" content="Terms and Conditions on CodingNotes" />
+
+    </Head>
 
 
 

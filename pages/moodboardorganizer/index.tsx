@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from "next/link"
+import Head from "next/head"
 
 import FooterImage from "../../assets/web-design_green.svg"
 
@@ -65,6 +66,10 @@ const techs = [
   return (
 
     <div>
+         <Head>
+      <title>Moodboard and Organizer</title>
+      <meta name="description" content="Moodboard and Organizer Notion Template" />
+    </Head>
 
     
 

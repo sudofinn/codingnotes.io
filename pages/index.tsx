@@ -17,7 +17,11 @@ export default function Home() {
     <div>
        <Head>
       <title>CodingNotes</title>
-      <meta name="description" content="." />
+      <meta name="description" content="Detailed notes and flashcards for various programming languages." />
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
     </Head>
       <Navbar />
       <Header />

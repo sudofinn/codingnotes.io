@@ -59,7 +59,7 @@ const Templates = () => {
     >
         <Head>
       <title>Templates</title>
-      <meta name="description" content="." />
+      <meta name="description" content="The templates." />
     </Head>
       <div className="max-w-screen-lg mx-auto pt-12 text-center p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="mx-auto">

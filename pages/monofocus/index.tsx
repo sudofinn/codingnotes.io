@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from "next/link"
+import Head from "next/head"
 
 import FooterImage from "../../assets/web-design_gray.svg"
 
@@ -95,6 +96,10 @@ const techs = [
   return (
 
     <div>
+         <Head>
+      <title>Mono Focus OS</title>
+      <meta name="description" content="Mono Focus OS Notion Template" />
+    </Head>
 
     
 

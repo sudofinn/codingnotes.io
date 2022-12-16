@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from "next/link"
+import Head from "next/head"
 
 import FooterImage from "../../assets/web-design_yellow.svg"
 
@@ -127,6 +128,10 @@ const techs = [
   return (
 
     <div>
+         <Head>
+      <title>JavaScript</title>
+      <meta name="description" content="JavaScript Notes and Flashcards" />
+    </Head>
 
     
 

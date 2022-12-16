@@ -26,8 +26,8 @@ const Markdown = () => {
     <div className="w-full h-screen  px-6 dark:bg-white dark:text-black bg-black p-4 text-white">
 
     <Head>
-      <title>Intro to Code</title>
-      <meta name="description" content="The 404 page,an  unexisting page from the blog A Tiny Improvement. Made by Finn Guha." />
+      <title>Markdown</title>
+      <meta name="description" content="Markdown Notes and Flashcards." />
 
     </Head>
 

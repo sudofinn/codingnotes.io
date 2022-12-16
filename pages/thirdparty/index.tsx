@@ -1,10 +1,13 @@
 import React from 'react'
+import Image from "next/image"
+import Head from "next/head"
+
+import Link from "next/link"
+
+
 import HeaderImage from "../../assets/notion_icon.jpg"
 import SecondImage from "../../assets/anki_icon.jpg"
 import ThirdImage from "../../assets/popsy_real.png"
-import Image from "next/image"
-
-import Link from "next/link"
 
 
 const Header = () => {
@@ -12,6 +15,12 @@ const Header = () => {
 
   return (
     <div>
+
+    <Head>
+      <title>Third Party</title>
+      <meta name="description" content="Third Party Services on CodingNotes" />
+
+    </Head>
       <div className='text-center flex justify-center'>
 
         <div className=''>

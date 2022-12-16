@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Router from "next/router";
+import Head from "next/head"
 
 import reactImage from "../../assets/react.png";
 import nextjs from "../../assets/nextjs.png";
@@ -48,6 +49,12 @@ const Products = () => {
       
       className="bg-black  min-h-screen "
     >
+
+         <Head>
+      <title>JS Frameworks</title>
+      <meta name="description" content="JavaScript Frameworks Notes and Flashcards" />
+    </Head>
+
       <div className="max-w-screen-lg mx-auto pt-12 text-center p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="mx-auto">
           <h1 className="text-6xl  lg:text-8xl  font-extrabold text-white   p-2 inline ">

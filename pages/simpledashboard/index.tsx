@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from "next/link"
+import Head from "next/head"
 
 import FooterImage from "../../assets/web-design_gray.svg"
 
@@ -67,6 +68,10 @@ const techs = [
   return (
 
     <div>
+         <Head>
+      <title>Simple Dashboard</title>
+      <meta name="description" content="Simple Dashboard Notion Template" />
+    </Head>
 
     
 

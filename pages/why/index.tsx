@@ -12,7 +12,7 @@ const Reasons = () => {
       <div className='flex flex-wrap xl:flex-nowrap  xl:justify-between '>
          <Head>
       <title>Founder</title>
-      <meta name="description" content="." />
+      <meta name="description" content="About the founder" />
     </Head>
 
         <div className=''>

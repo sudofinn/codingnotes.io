@@ -100,7 +100,7 @@ const Products = () => {
     >
         <Head>
       <title>Products</title>
-      <meta name="description" content="." />
+      <meta name="description" content="The products." />
     </Head>
       <div className="max-w-screen-lg mx-auto pt-12  text-center  p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="mx-auto">

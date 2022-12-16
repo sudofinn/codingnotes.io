@@ -1,8 +1,16 @@
 import React from 'react'
+import Head from "next/head"
 
 const index = () => {
   return (
     <div>
+
+         <Head>
+      <title>FAQ</title>
+      <meta name="description" content="FAQ on CodingNotes" />
+    </Head>
+
+
     <div>
         <h1  data-aos="fade-up" className="text-5xl lg:text-7xl text-center     mt-16 font-extrabold">The most important questions - answered ! </h1>
 
