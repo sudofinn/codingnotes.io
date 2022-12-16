@@ -1,9 +1,9 @@
 import React from 'react'
 import HeaderImage from "../../assets/engineer_yellow.svg"
-import Image from "next/image"
 import useDarkMode from '../hooks/useDarkMode'
 
 import Link from "next/link"
+import Image from "next/image"
 
 
 const Header = () => {
@@ -18,24 +18,25 @@ const Header = () => {
             <h1  data-aos="fade-up" className=" text-6xl xl:text-7xl 2xl:text-8xl  text-center md:text-left ml-4    md:ml-32  mt-20 sm:mt-48 font-extrabold">Learn to code</h1>
             <h1   className="text-4xl xl:text-5xl 2xl:text-6xl text-orange-600 text-center md:text-left  ml-0  md:ml-32 mt-4 font-extrabold">and never forget it !</h1>
                
-               <Link href="/why">
+               <Link className='' href="/products">
 
-              <button className="text-black shadow-md   dark:bg-black dark:text-white px-3 py-4 lg:px-7 lg:py-5
-                mx-auto   rounded-md hover:scale-110 duration-300 ml-8 max-[380px]:ml-6 max-[390px]:ml-4 md:ml-32 mt-12
+              <button className="text-black shadow-md  mt-8  dark:bg-black dark:text-white px-12 md:px-12 py-4 lg:px-7 lg:py-5 
+                mx-auto   rounded-md hover:scale-110 duration-300 ml-32   md:ml-32 
                 bg-gradient-to-r from-yellow-400  to-red-800 hover:from-red-800 hover:to-yellow-400 hover:shadow-xl hover:shadow-black  hover:bg-white
                 ">
-              The Why
+              Discover
               {/* modal pop up video */}
             </button>
                </Link>
 
-            <Link href="/products">
-              <button  className="text-black shadow-md  bg-white dark:bg-black dark:text-white  px-3 py-4 lg:px-7 lg:py-5
-                mx-auto  rounded-md hover:scale-110 duration-300 ml-16 mt-16 hover:shadow-xl hover:shadow-black hover:text-black hover:bg-white
-                ">
-              Discover !
-            </button>
-            </Link>
+               
+
+            
+        <Link rel="noreferrer" href="https://www.producthunt.com/posts/codingnotes?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-codingnotes" target="_blank"> <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=370406&theme=dark" alt="CodingNotes "
+         className=" ml-24 lg:ml-32 mt-12  " width="250" height="64" /></Link>
+
+
+            
 
             </div>
 

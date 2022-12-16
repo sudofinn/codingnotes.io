@@ -9,6 +9,7 @@ import Tabs from '../components/home/Tabs'
 import Explore from '../components/home/Explore'
 import Explain from '../components/home/Explain'
 import Reasons from '../components/home/Reasons'
+import SocialProof from '../components/home/SocialProof'
 import Footer from '../components/home/Footer'
 
 
@@ -29,6 +30,7 @@ export default function Home() {
       <Tabs />
       <Explain />
       <Explore />
+      <SocialProof />
       <Reasons />
       <Footer />
     </div>
