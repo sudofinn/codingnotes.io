@@ -12,16 +12,16 @@ const Header = () => {
 
 
   return (
-      <div className='flex flex-wrap  md:justify-between  '>
+      <div className='flex flex-wrap   md:justify-between  '>
 
         <div className=''>
-            <h1  data-aos="fade-up" className=" text-6xl xl:text-7xl 2xl:text-8xl  text-center md:text-left ml-4    md:ml-32  mt-20 sm:mt-48 font-extrabold">Learn to code</h1>
-            <h1   className="text-4xl xl:text-5xl 2xl:text-6xl text-orange-600 text-center md:text-left  ml-0  md:ml-32 mt-4 font-extrabold">and never forget it !</h1>
+            <h1  data-aos="fade-up" className=" text-6xl xl:text-7xl 2xl:text-8xl  text-center sm:text-left ml-4    sm:ml-32  mt-20 sm:mt-48 font-extrabold">Learn to code</h1>
+            <h1   className="text-4xl xl:text-5xl 2xl:text-6xl text-orange-600 text-center sm:text-left  ml-0   sm:ml-32 mt-4 font-extrabold">and never forget it !</h1>
                
                <Link className='' href="/products">
 
-              <button className="text-black shadow-md  mt-8  dark:bg-black dark:text-white px-12 md:px-12 py-4 lg:px-7 lg:py-5 
-                mx-auto   rounded-md hover:scale-110 duration-300 ml-24 md:ml-32   
+              <button className="text-black shadow-md  mt-8  dark:bg-black dark:text-white px-12 md:px-12 py-4 lg:px-12 lg:py-5 
+                  rounded-md hover:scale-110 duration-300 ml-28 md:ml-32 
                 bg-gradient-to-r from-yellow-400  to-red-800 hover:from-red-800 hover:to-yellow-400 hover:shadow-xl hover:shadow-black  hover:bg-white
                 ">
               Discover
@@ -32,8 +32,9 @@ const Header = () => {
                
 
             
-        <Link rel="noreferrer" href="https://www.producthunt.com/posts/codingnotes?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-codingnotes" target="_blank"> <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=370406&theme=dark" alt="CodingNotes "
-         className=" ml-16 md:ml-24 lg:ml-32 mt-12  " width="250" height="64" /></Link>
+        
+            <Link href="https://www.producthunt.com/posts/codingnotes?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-codingnotes" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=370406&theme=dark&period=daily"
+        alt="CodingNotes" className=" mt-8 text-center md:text-left ml-8 sm:ml-24 lg:ml-28   w-[400px] h-[80px] "  /></Link>
 
 
             

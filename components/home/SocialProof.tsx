@@ -5,7 +5,7 @@ const SocialProof = () => {
   return (
     <div>
       <div>
-        <h1  data-aos="fade-up" className=" text-6xl xl:text-7xl 2xl:text-8xl  text-center   mt-20 sm:mt-48 font-extrabold ">What others think </h1>
+        <h1  data-aos="fade-up" className=" text-6xl xl:text-7xl 2xl:text-8xl  text-center  mt-64  sm:mt-48 font-extrabold ">What others think </h1>
       </div>
 
       <div className="">
