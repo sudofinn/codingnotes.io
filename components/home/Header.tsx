@@ -21,7 +21,7 @@ const Header = () => {
                <Link className='' href="/products">
 
               <button className="text-black shadow-md  mt-8  dark:bg-black dark:text-white px-12 md:px-12 py-4 lg:px-12 lg:py-5 
-                  rounded-md hover:scale-110 duration-300 ml-28 md:ml-32 
+                  rounded-md hover:scale-110 duration-300 ml-28 md:ml-32  max-[360px]:ml-20 max-[385px]:ml-24
                 bg-gradient-to-r from-yellow-400  to-red-800 hover:from-red-800 hover:to-yellow-400 hover:shadow-xl hover:shadow-black  hover:bg-white
                 ">
               Discover
@@ -34,7 +34,7 @@ const Header = () => {
             
         
             <Link href="https://www.producthunt.com/posts/codingnotes?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-codingnotes" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=370406&theme=dark&period=daily"
-        alt="CodingNotes" className=" mt-8 text-center md:text-left ml-8 sm:ml-24 lg:ml-28   w-[400px] h-[80px] "  /></Link>
+        alt="CodingNotes" className=" mt-8 text-center md:text-left ml-2 max-[360px]:ml-2  min-[370px]:ml-2 sm:ml-24 lg:ml-28   w-[400px] h-[80px] "  /></Link>
 
 
             
