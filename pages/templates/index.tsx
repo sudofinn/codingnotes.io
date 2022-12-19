@@ -6,6 +6,8 @@ import first from "../../assets/covers/github.png"
 import second from "../../assets/covers/github.png"
 import third from  "../../assets/covers/github.png"
 
+import monothumbnail from "../../assets/template_covers/focus_thumbnail.png"
+
 import Head from 'next/head'
 
 /* price tag somwhere probably should be added */
