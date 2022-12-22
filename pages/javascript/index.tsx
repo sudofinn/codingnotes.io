@@ -140,11 +140,11 @@ const techs = [
             <h1  data-aos="fade-up" className="text-4xl lg:text-7xl mt-8 font-extrabold">Add functionality- learn JavaScript</h1>
 
 
-            <Link href="https://vimfinn.gumroad.com/l/javascript">
+            <Link href="https://www.youtube.com/watch?v=ELvKBP4aHXQ">
              <button className=" bg-yellow-400 shadow-md shadow-black text-white px-4 py-3 lg:px-8 lg:py-6
                 mx-auto  rounded-md hover:scale-110 duration-300 mt-8 hover:shadow-xl hover:shadow-black hover:text-white hover:bg-black
                 ">
-              Discover the language !
+              Discover with a video !
             </button>
             </Link>
 

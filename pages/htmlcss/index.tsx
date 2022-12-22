@@ -30,8 +30,6 @@ import Seven from "../../assets/covers/htmlcss5.png"
 
 
 
-
-
 const Index = () => {
 
   const slideImages = [
@@ -124,6 +122,8 @@ const techs = [
       price: "$6"
     },
   ]
+
+
  
 
 
@@ -141,11 +141,11 @@ const techs = [
      <div className='text-center'>
             <h1  data-aos="fade-up" className="text-4xl lg:text-7xl mt-8 font-extrabold">Learn the Fundamentals - HTML and CSS </h1>
 
-            <Link href="https://vimfinn.gumroad.com/l/htmlcss">
+            <Link href="https://www.youtube.com/watch?v=Qc-nGIMv_SY">
              <button className=" bg-orange-600 shadow-md shadow-black text-white px-4 py-3 lg:px-8 lg:py-6
                 mx-auto  rounded-md hover:scale-110 duration-300 mt-8 hover:shadow-xl hover:shadow-black hover:text-white hover:bg-black
-                ">
-              Discover the language 
+                "  >
+              Discover with a video
             </button>
             </Link>
 
