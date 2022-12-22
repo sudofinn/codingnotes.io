@@ -81,7 +81,7 @@ const techs = [
                 <li>30+ visuals</li>
        </ul>
       </>,
-      price: "$5"
+      price: "$4"
     },
     {
       id: 2,
@@ -100,7 +100,7 @@ const techs = [
               
        </ul>
       </>,
-      price: "$8"
+      price: "$7"
     },
      {
       id: 3,
@@ -119,7 +119,7 @@ const techs = [
                 <li>Advanced algorithms to learn efficient.</li>
        </ul>
       </>,
-      price: "$5"
+      price: "$4"
     },
   ]
  
