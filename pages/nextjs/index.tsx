@@ -115,7 +115,7 @@ const techs = [
        text:
       <>
       <ul>
-                 <li >150+ flashcards</li>
+                 <li >100 flashcards</li>
                 <li>Advanced algorithms to learn efficient.</li>
        </ul>
       </>,
@@ -165,7 +165,7 @@ const techs = [
         <div className=''>
             <h1  data-aos="fade-up" className="text-6xl xl:text-8xl  ml-8 xl:ml-32   mt-48 font-extrabold">What you get ! </h1>
             <ul className=" list-disc  ml-16 xl:ml-32 mt-8 text-2xl xl:text-4xl mr-8 xl:mr-32">
-                      <li className="mt-6 mb-6">30+ Notion pages and 150+ Anki Flashcards.</li>
+                      <li className="mt-6 mb-6">30+ Notion pages and 100 Anki Flashcards.</li>
                       <li className="mt-6 mb-6">Every concept you need to know to master NextJS.</li >
                       <li className="mt-6 mb-6"> 15+ graphics and 20+ practical examples that further help you.</li >
 
