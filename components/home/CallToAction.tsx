@@ -29,7 +29,7 @@ const Header = () => {
 
  <Zoom>
       <p className="mb-4 mt-4  bg-pink-500  text-2xl sm:text-3xl
-      mx-[8] sm:mx-[75px] md:mx-[150px] lg:mx-[300px] xl:mx-[500px] 2xl:mx-[600px]
+      mx-[8] sm:mx-[74px] md:mx-[150px] lg:mx-[300px] xl:mx-[500px] 2xl:mx-[600px]
       ">&quot; Just bought the notes and flashcards and I am  excited to use them  to learn coding.  &quot;</p>
       <p className=" mb-12 mx-auto text-xl underline text-gray-300"><Link href="https://www.youtube.com/watch?v=Qc-nGIMv_SY&t=56s" target="_blank" >Tess Loggins , learns web development with CodingNotes</Link>  </p>
 
