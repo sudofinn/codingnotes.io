@@ -22,11 +22,13 @@ export default function Tabs() {
         date: 'Learn More',
         commentCount: "/htmlcss",
         shareCount: "HTML is the language every web developer uses. Learn the foundation of web development with the right technique.",
+        shareCountStyle: " bg-gradient-to-r hover:from-blue-600  hover:to-red-800 from-red-800 to-blue-400",
         pageAmount: 70,
         flashcardAmount: 500,
-        visualsAmount: 50,
+        visualsAmount: 40,
         praticequestionAmount: 25,
         color:"black",
+        buttonstyle: "hover:bg-gradient-to-r from-blue-600  to-red-800 hover:from-red-800 hover:to-blue-400"
         
       },
     
@@ -38,11 +40,13 @@ export default function Tabs() {
         date: 'Lets script ',
         commentCount: "/javascript",
         shareCount: "JavaScript gives the web functionality. When you want to become a Frontend Developer , JavaScript is a must. Learn it right , don´t waste time !",
-        pageAmount: 50,
+        shareCountStyle: " bg-yellow-600",
+        pageAmount: 60,
         flashcardAmount: 350,
-        visualsAmount: 30,
-        praticequestionAmount: 20,
-        color:"black"
+        visualsAmount: 20,
+        praticequestionAmount: 30,
+        color:"black",
+        buttonstyle: "hover:bg-yellow-600 "
       },
      
     ],
@@ -51,13 +55,15 @@ export default function Tabs() {
         id: 1,
         title: 'The best JavaScript Framework !',
         date: 'Be reactive',
-        commentCount:"/react",
+        commentCount:"/reactjs",
         shareCount: "React is the most popular JavaScript library. Millions of developer use it to make their lives easier. Be one of them and learn this awesome technology !",
+        shareCountStyle: " bg-blue-400",
         pageAmount: 40,
-        flashcardAmount: 300,
-        visualsAmount: 20,
-        praticequestionAmount: 25,
-        color:"black"
+        flashcardAmount: 225,
+        visualsAmount: 30,
+        praticequestionAmount: 15,
+        color:"black",
+        buttonstyle: "hover:bg-blue-400 "
 
         
       },
@@ -70,7 +76,7 @@ export default function Tabs() {
   }
 
   return (
-    <div className="w-full max-w-5xl mt-32 lg:mt-64 px-4  py-16 mx-auto  " >
+    <div className="max-w-5xl mt-32 lg:mt-64 px-4 text-black  py-16 mx-auto  " >
       <Tab.Group>
         <Tab.List className="flex space-x-1 rounded-xl  py-3 bg-blue-900/20 p-1">
           {Object.keys(categories).map((category) => (
@@ -113,7 +119,7 @@ export default function Tabs() {
                     <h1 className=" text-4xl lg:text-5xl xl:text-6xl mt-4 mb-4 font-extrabold ">
                       {post.title}
                     </h1>
-                    <h3 className="text-2xl lg:text-3xl mt-4 mb-8">{post.shareCount} </h3>
+                    <h3 className={`text-2xl lg:text-3xl mt-4 mb-8  items-center px-6 py-2  duration-300 transition text-black rounded ${post.shareCountStyle}`}>{post.shareCount} </h3>
                     <ul className="text-xl lg:text-2xl list-disc ml-8 mb-8">
                       <li> {post.pageAmount} + pages</li>
                       <li> {post.flashcardAmount} + flashcards</li>
@@ -123,8 +129,10 @@ export default function Tabs() {
                     </ul>
 
                     
-                      <button className={`shadow-md hover:shadow-white bg-${post.color} text-white   px-10 py-5
-                      mt-4 rounded-md hover:scale-110 bg-gradient-to-r from-teal-400  to-red-800 hover:from-red-800 hover:to-blue-400 hover:shadow-xl hover:shadow-black  hover:bg-white duration-300 mb-8`}  >{post.date}</button>
+                      <button className={`px-4  cursor-pointer   text-black py-4
+                                 text-2xl font-extrabold transition duration-500 hover:scale-110  
+                                items-center     rounded-xl
+                                 select-none  border-black  border-4 bg-transparent ${post.buttonstyle}`}  >{post.date}</button>
 
                     
                      

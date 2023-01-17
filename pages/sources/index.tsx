@@ -1,5 +1,9 @@
 import React from 'react'
 import Head from "next/head"
+import Link from "next/link"
+
+import NavBar from '../../components/home/NavBar';
+import Footer from '../../components/home/Footer';
 
 import { useRouter } from 'next/router';
 
@@ -16,34 +20,60 @@ import Center from "../../assets/digital-nomad.svg"
 
 const IntroToCode = () => {
 
-  const router = useRouter()
-
-  const navigateHome = () => {
-    router.push("/products")
-  }
+  
 
   return (
-    <div className="w-full h-screen  px-6 dark:bg-white dark:text-black bg-black p-4 text-white">
+    <div className="bg-gradient-to-b from-gray-900 text-center to-gray-800 w-full min-h-screen text-white">
 
     <Head>
       <title>Sources</title>
       <meta name="description" content="Sources used on CodingNotes" />
 
     </Head>
+    <NavBar />
 
-        <h1 data-aos="fade-up" className="text-center font-extrabold text-5xl  lg:text-7xl mb-16 mt-16">Still in development</h1>
 
+    
+    <div className='border-4 border-white'>
+         <h1 data-aos="fade-up" className="text-center  mt-16 font-extrabold text-5xl inline-flex  bg-purple-600 lg:text-7xl mb-16 ">Science</h1>
+        <h1 data-aos="fade-up" className="text-center mx-auto font-bold text-2xl  lg:text-2xl mb-16 ">Sources used to 
+        justify the way of teaching. </h1>
 
-        <button onClick={navigateHome} className="text-black mt-8 shadow-md hover:shadow-white bg-white dark:bg-black
-         dark:text-white hover:bg-black hover:text-white px-6 py-5 lg:px-10 lg:py-6
-             mx-auto flex  items-center text-xl lg:text-2xl rounded-md hover:scale-110 duration-300">
-            Jump to other products
+       
+
+  <Link href="/science" target="_blank">
+        <button id="badge-dismiss-default" className="mx-auto flex items-center px-6 py-4 mb-32 text-2xl font-bold bg-yellow-600 hover:bg-yellow-500 text-black rounded">
+          Jump to Sources 🖱️
         </button>
+  </Link>
+
+
+
+     <h1 data-aos="fade-up" className="text-center   font-extrabold mt-32 text-5xl inline-flex  bg-green-600 lg:text-7xl mb-16 ">Product</h1>
+        <h1 data-aos="fade-up" className="text-center mx-auto font-bold text-2xl   lg:text-2xl mb-16 ">Sources used to build
+        CodingNotes including the notes and flashcards and the websites. </h1>
+
+       
+
+  <Link href="https://a-tiny-improvement.notion.site/All-Sources-d9a1e85a6d6c42c2a40c0dab44354a55" target="_blank">
+        <button id="badge-dismiss-default" className="mx-auto flex items-center px-6 py-4 mb-32 text-2xl font-bold bg-blue-600 hover:bg-blue-500 text-black rounded">
+          Jump to Sources 🖱️
+        </button>
+  </Link>
+
+
+    </div>
+
+     
 
         
-            <Image className=" mx-auto mt-8 " src={Center} alt="The Header"  width={500}
-            height={300}   />
-    
+
+        
+        
+        <Footer />
+
+        
+            
 
     </div>
   )

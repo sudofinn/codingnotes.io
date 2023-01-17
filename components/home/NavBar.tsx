@@ -17,9 +17,6 @@ import {
 
 
 /* make animation from yash patel tailwind tutorial */
-/* dark mode is clearly not working , icon moves but not good, idk */
-/* is working nowhere ( also not on reach out page where I just copied from atinyimprovement,
-    must be general problem )) */
 
 
 const NavBar : React.FC = () => {
@@ -32,26 +29,30 @@ const NavBar : React.FC = () => {
     const links = [ 
         {
             id:1,
-            link: "Products",
-            href: "/products"
+            link: "#products",
+            href: "/products",
+            style: "hover:text-black hover:bg-green-400 select-none rounded-xl text-green-400 border  border-green-400 border-4 bg-transparent   ",
         },
 
         {
             id:2,
-            link: "Templates",
-            href:"/templates"
+            link: "#templates",
+            href:"/templates",
+            style:"hover:text-blue-600 "
         },
 
         {
             id:3,
-            link: "Why",
-            href: "/why"
+            link: "#other",
+            href: "/other",
+            style:"hover:text-purple-600 "
         },
 
         {
             id:4,
-            link: "Reach out",
-            href: "/reachout"
+            link: "#reach_out",
+            href: "/reachout",
+            style:"hover:text-black border-4 border-gray-900 border-double hover:bg-orange-500   "
         },
 
         
@@ -60,11 +61,11 @@ const NavBar : React.FC = () => {
 
     return (
         <div className="flex justify-between items-center 
-             px-4 w-full h-20 text-black bg-white fixed ">
+             px-4 w-full h-20 text-white relative ">
             <div>
                 <Link href="/">
-                <h1 className="text-2xl font-signature hidden md:block font-extrabold
-                            ml-32">CodingNotes</h1>
+                <h1 className="text-2xl font-signature hidden md:block font-extrabold bg-gradient-to-r from-yellow-500 to-red-600
+                hover:shadow-xl shadow-white hover:text-black hover:bg-gradient-to-r hover:from-red-600 hover:to-yellow-500 duration-500 ml-32">CodingNotes</h1>
                 </Link>
             </div>
 
@@ -72,13 +73,13 @@ const NavBar : React.FC = () => {
 
             <ul className="hidden lg:flex">
                 
-             {links.map(({ id, link, href }) => (
+             {links.map(({ id, link, href , style }) => (
            <Link
             key={id}
             href={href}
-            className="px-4  cursor-pointer capitalize transition duration-200  hover:border-b-4 border-black
-             text-black hover:scale-105 mr-8
-             font-bold" 
+            className={`px-4  cursor-pointer  transition duration-200  hover:border-b-4 
+             text-white hover:scale-105 mr-8 
+             font-bold  ${style}`}
             >
 
                 
@@ -95,23 +96,24 @@ const NavBar : React.FC = () => {
             {/* logic */}
             <div onClick={() => setNav(!nav)} 
             className="cursor-pointer pr-4 z-10
-             text-black lg:hidden">
+             text-white lg:hidden">
                 {nav ? <FaTimes size={30} color="white" /> :<FaBars size={30} /> }
             </div>
 
 
             {/* mobile */}
             {nav && (
-                <ul className="flex flex-col justify-center
+                <ul className="flex flex-col justify-center 
                                 items-center 
-                                absolute top-0 left-0 w-full h-screen   bg-black  ">
+                                absolute   top-0 left-0 w-full h-screen   bg-gray-900  ">
 
-                    {links.map(({ id, link, href }) => (
+                    {links.map(({ id, link, href, style}) => (
                     <Link
                         key={id}
                         href={href}
-                        className="px-4 cursor-pointer capitalize text-indigo-200 hover:text-teal-400
-                                py-6 text-4xl font-extrabold transition duration-500 hover:scale-110  hover:border-b-4" >
+                        className={`px-4  cursor-pointer   text-white py-4
+                                my-6 text-2xl font-extrabold transition duration-500 hover:scale-110  
+                                items-center  mr-3    rounded-xl ${style}`} >
                         {link}
                         
                         

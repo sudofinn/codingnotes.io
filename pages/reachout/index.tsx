@@ -1,8 +1,10 @@
 import React from 'react'
 import Head from "next/head"
 
-/* when darkmode working, do same as in products > index.tsx, fixes whitespace problem, just look at first code 
-after return statement */
+
+import NavBar from "../../components/home/NavBar";
+import Footer from "../../components/home/Footer";
+
 
 import {
   FaMoon,
@@ -13,19 +15,20 @@ const Index = () => {
 
 
   return (
-    <div className="w-full h-screen dark:bg-white  bg-black p-4 text-black">
+    <div className="w-full min-h-screen font-extrabold   bg-gray-900 p-4 text-white">
 
     <Head>
       <title>Reach out</title>
       <meta name="description" content="Contact CodingNotes" />
     </Head>
+    <NavBar />
 
-      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+      <div className="p-4 justify-center max-w-screen-lg mx-auto ">
         <div className="pb-8  ">
-          <p data-aos="fade-up" className="text-7xl font-bold text-center  mb-4 ">
+          <p data-aos="fade-up" className="text-4xl font-bold text-center  mb-4 ">
             Contact
           </p>
-          <p  data-aos="fade-up" className="py-6 text-2xl text-center ">Submit the form below to get in touch with me</p>
+          <p  data-aos="fade-up" className="py-6 text-xl text-center ">Submit the form below to get in touch with me</p>
           
         </div>
 
@@ -62,8 +65,14 @@ const Index = () => {
             </button>
           </form>
         </div>
+
+        
+        
+    <Footer />
       </div>
+      
     </div>
+    
   );
 }
 

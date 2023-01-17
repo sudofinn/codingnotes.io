@@ -10,5 +10,12 @@
 @layer base {
   html {
     font-family: 'Raleway', sans-serif;
+   
   }
+  
+  ::selection {
+  background: #9333ea;
 }
+
+}
+

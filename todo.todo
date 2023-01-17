@@ -1,1 +1,26 @@
 
+
+getting hydration error when going to /other from #notintemplate section in homepage but not when I go from navbar
+( see https://github.com/sudofinn/blog/blob/master/pages/_app.tsx on fix )
+
+
+navbar make C for mobile version so users can go to homepage like they can on large screens )
+
+
+intro to frontend ( make form to receive email once launched , 25% discount on first 48 hours )
+
+
+cutting edges still a bit on homepage, must fix
+
+  maybe file structure system ( e.g. legal/terms or products/htmlcss)
+
+
+
+
+if everything else ready: start with blog ( whole subpage, advertise on homepage with own component for it etc.)
+
+
+if google or vercel analytics, add minimalistic small cookie banner and if allowed then we track ( works with google analytics, 
+do not know how this works with vercel analytics)
+
+change the metadata ( often wrong one, make this good for a solid SEO)

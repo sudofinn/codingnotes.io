@@ -2,6 +2,10 @@ import React from "react";
 import Link from "next/link";
 import Router from "next/router";
 
+import NavBar from "../../components/home/NavBar";
+import Footer from "../../components/home/Footer";
+
+
 import html from "../../assets/html.png";
 import css from "../../assets/css.png";
 import javascript from "../../assets/javascript.png";
@@ -13,6 +17,16 @@ import vim from "../../assets/vim-original.svg"
 import markdown from "../../assets/markdown-original.svg"
 
 import first from "../../assets/covers/github.png"
+
+import HTML from "../../assets/covers/htmlcss1_final.png"
+import CSS from "../../assets/covers/htmlcss1_final.png"
+import JavaScript from "../../assets/covers/javascript_1.png"
+import ReactJS from "../../assets/covers/react_1.png"
+import NextJS from "../../assets/covers/nextjs_1.png"
+import Vim from "../../assets/covers/vim_1.png"
+import Frontend from "../../assets/covers/frontendbundle_2.png"
+import Markdown from "../../assets/covers/markdown_1.png"
+import IntroToFrontend from "../../assets/covers/intro_to_frontend_1.png"
 
 import Head from 'next/head'
 
@@ -26,63 +40,98 @@ const Products = () => {
   const techs = [
     {
       id: 1,
-      src: html,
+      src: HTML,
       title: "HTML",
+      intro: "Start your web development career by learning the foundations.",
       style: "shadow-orange-500",
-      href: "/htmlcss"
+      href: "/htmlcss",
+      buttonstyle: "bg-orange-500 hover:bg-orange-400",
+      buttontitle: "#html"
     },
     {
       id: 2,
-      src: css,
+      src: CSS,
       title: "CSS",
+      intro: "Start your web development career by learning the foundations.",
       style: "shadow-blue-500",
-      href: "/htmlcss"
+      href: "/htmlcss",
+      buttonstyle: "bg-blue-500 hover:bg-blue-400",
+      buttontitle: "#css"
     },
      {
       id: 3,
-      src: javascript,
+      src: JavaScript,
       title: "JavaScript",
+      intro: "Make your page interactive and reactive with a language that is used everywhere.",
       style: "shadow-yellow-500",
-      href: "/javascript"
+      href: "/javascript",
+      buttonstyle: "bg-yellow-500 hover:bg-yellow-400",
+      buttontitle: "#javascript"
+      
     },
     {
       id: 4,
-      src: reactImage,
+      src: ReactJS,
       title: "ReactJS",
+      intro: "Embrace the most popular JavaScript Framework.",
       style: "shadow-blue-700",
-      href: "/reactjs"
+      href: "/reactjs",
+      buttonstyle: "bg-cyan-400 hover:bg-cyan-300",
+      buttontitle: "#reactjs"
     },
     {
       id: 5,
-      src: nextjs,
+      src: NextJS,
       title: "NextJS",
+      intro: "Enjoy the Meta-Framework for React and it`s benefits.",
       style: "shadow-white",
-      href: "/nextjs"
+      href: "/nextjs",
+      buttonstyle: "bg-white hover:bg-gray-100",
+      buttontitle: "#nextjs"
     },
    
     
     {
       id: 6,
-      src: vim,
+      src: Vim,
       title: "(Neo)Vim",
+      intro: "Achieve  legend status by using this editor.",
       style: "shadow-green-600",
-      href: "/neovim"
+      href: "/neovim",
+      buttonstyle: "bg-green-600 hover:bg-green-500",
+      buttontitle: "#neovim"
     }, 
    
     {
       id: 6,
-      src: first,
+      src: Frontend,
       title: "Frontend Bundle",
+      intro: "Learn 5 technologies and save your money in the process.",
       style: "shadow-purple-600",
-      href: "/frontendbundle"
+      href: "/frontendbundle",
+      buttonstyle: "bg-purple-600 hover:bg-purple-500",
+      buttontitle: "#frontend"
     }, 
 
     {
       id: 6,
-      src: first,
+      src: Markdown,
       title: "Markdown",
+      intro: "Explore the  language that is used everywhere for a reason.",
       style: "shadow-white",
-      href: "/markdown"
+      href: "/markdown",
+      buttonstyle: "bg-white hover:bg-gray-100",
+      buttontitle: "#markdown"
+    }, 
+    {
+      id: 6,
+      src: IntroToFrontend,
+      title: "Intro to Frontend",
+      style: "shadow-pink-500",
+      intro: "Get a nice introduction before jumping in the cold",
+      href: "/frontendintro",
+      buttonstyle: "bg-pink-500 hover:bg-pink-400",
+      buttontitle: "#frontend"
     }, 
   ];
 
@@ -90,40 +139,52 @@ const Products = () => {
     Router.push("/")
     
   }
-  // -mr-8 seems to fix whitespace right */
+  // -mr-32 seems to fix whitespace right */
 
   return (
     <div
     
       
-      className="bg-black  min-h-screen -mr-8  "
+      className="bg-gray-900 min-h-screen  "
     >
         <Head>
       <title>Products</title>
       <meta name="description" content="The products." />
     </Head>
+    <NavBar />
       <div className="max-w-screen-lg mx-auto pt-12  text-center  p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="mx-auto">
-          <h1 className="text-6xl  lg:text-8xl  font-extrabold text-white   p-2 inline ">
-            Products
+          <h1 className="text-4xl  lg:text-5xl  font-extrabold text-white   p-2 inline ">
+            Packages
           </h1>
-          <p className="py-8 text-center mx-6 font-extrabold text-2xl">The notes and flashcards that can make you a better developer. </p>
+          <p className="py-8 text-center  mx-6 font-extrabold text-xl  sm:mx-[200px] lg:mx-[200px] xl:mx-[250px] 2xl:mx-[300px]">The notes and flashcards that  make you a (better) developer. </p>
         </div>
 
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 text-center py-8 px-12 sm:px-0 cursor-pointer">
-          {techs.map(({ id, src, title, style, href }) => (
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 text-center py-8 px-4 sm:px-0 cursor-pointer">
+          {techs.map(({ id, src, title, intro, style, href , buttontitle, buttonstyle }) => (
             <Link
               key={id}
               className={`shadow-xl hover:shadow-md hover:scale-110  duration-500 py-2 rounded-xl ${style}`}
               href={href}
             >
-              <Image src={src} alt="" className="w-20 mx-auto"  />
-              <p className="mt-4" >{title} </p>
+              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700
+       ">
+            <Image className="rounded-t-lg" src={src} alt="" />
+    <div className="p-5">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
+        <p className="mb-3 font-light text-gray-700 dark:text-gray-400">{intro}</p>
+        <button id="badge-dismiss-default" className={`inline-flex  items-center px-4 py-1  text-lg font-bold 
+         text-black rounded ${buttonstyle}`}>
+          {buttontitle}
+        </button>
+    </div>  
+</div>
               
             </Link>
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

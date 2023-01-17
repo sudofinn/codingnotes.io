@@ -10,12 +10,16 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.4",
+    "@types/aos": "^3.0.4",
+    "@types/react-modal-video": "^1.2.0",
     "aos": "^2.3.4",
     "next": "13.0.4",
     "react": "18.2.0",
+    "react-awesome-reveal": "^4.1.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.6.0",
     "react-image-gallery": "^1.2.11",
+    "react-modal-video": "^1.2.10",
     "react-scroll": "^1.8.8",
     "react-slideshow-image": "^4.0.5"
   },

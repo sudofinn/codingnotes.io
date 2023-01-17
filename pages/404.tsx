@@ -1,5 +1,10 @@
 import React from 'react'
 import Head from "next/head"
+import Link from "next/link"
+import Router from "next/router"
+
+import NavBar from '../components/home/NavBar';
+import Footer from '../components/home/Footer';
 
 import { useRouter } from 'next/router';
 
@@ -21,29 +26,36 @@ const Custom404 = () => {
   const navigateHome = () => {
     router.push("/")
   }
+  const toReact = () => {
+    router.push("/reactjs")
+  }
 
   return (
-    <div className="w-full h-screen  px-6 dark:bg-white dark:text-black bg-black p-4 text-white">
+    <div className="bg-gray-900 min-h-screen  text-white">
 
     <Head>
       <title>404 page</title>
       <meta name="description" content="The 404 page,an  unexisting page from the blog A Tiny Improvement. Made by Finn Guha." />
 
     </Head>
+    <NavBar />
 
         <h1 data-aos="fade-up" className="text-center font-extrabold text-7xl mb-16 mt-16">Oops, page not found !</h1>
 
 
-        <button onClick={navigateHome} className="text-black mt-8 shadow-md hover:shadow-white bg-white dark:bg-black
-         dark:text-white hover:bg-black hover:text-white px-10 py-6
-             mx-auto flex  items-center text-2xl rounded-md hover:scale-110 duration-300">
-            Jump to homepage
+       <Link href="/">
+        <button id="badge-dismiss-default" className="mx-auto flex items-center mt-6  px-6 py-3  text-2xl font-bold bg-green-600 hover:bg-green-500 text-black rounded">
+          #to_homepage
         </button>
+      </Link> 
+    
+      <h2 className='text-center font-bold mt-16 text-2xl'>Learn how to make such a 404 page with the power of  <button onClick={toReact} id="badge-dismiss-default" className="inline-flex mt-6   items-center px-6 py-2  text-2xl font-bold bg-blue-400 hover:bg-blue-300 text-black rounded">
+          #react_js
+        </button>. </h2>
 
         
-            <Image className=" mx-auto " src={Center} alt="The Header"  width={500}
-            height={300}   />
     
+    <Footer />
 
     </div>
   )

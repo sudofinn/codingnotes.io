@@ -1,4 +1,4 @@
-![First](/assets//readme1.jpg?raw=true)
+ ![First](/assets//readme1.jpg?raw=true)
 
 <div > 
 
@@ -61,6 +61,8 @@ and flashcards on various programming languages and technologies. </p>
 <li>Tailwind CSS </li>
 
  </ul>
+
+
 
 
 

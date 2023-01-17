@@ -5,6 +5,10 @@ import Head from "next/head"
 import Link from "next/link"
 
 
+import NavBar from "../../components/home/NavBar";
+import Footer from "../../components/home/Footer";
+
+
 import HeaderImage from "../../assets/notion_icon.jpg"
 import SecondImage from "../../assets/anki_icon.jpg"
 import ThirdImage from "../../assets/popsy_real.png"
@@ -14,108 +18,88 @@ const Header = () => {
 
 
   return (
-    <div>
+    <div className='min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white
+    '>
 
     <Head>
       <title>Third Party</title>
       <meta name="description" content="Third Party Services on CodingNotes" />
 
     </Head>
-      <div className='text-center flex justify-center'>
+    <NavBar />
+    
+      <div className='text-center flex justify-center     mx-[8] sm:mx-[75px] md:mx-[150px] lg:mx-[300px] xl:mx-[500px] 2xl:mx-[600px] '>
+        
 
-        <div className=''>
-            <h1  data-aos="fade-up" className="text-5xl lg:text-8xl   mt-16 font-extrabold">The tools  used </h1>
-            <h1  data-aos="fade-up" className="text-4xl lg:text-5xl   mt-12 font-extrabold">A notetaking app!</h1>
+        <div className=' '>
+            <h1  data-aos="fade-up" className="text-4xl lg:text-6xl bg-pink-600 inline-flex   mt-20 font-extrabold">Things used</h1>
+            <h1  data-aos="fade-up" className="text-3xl lg:text-4xl   mt-20 font-extrabold">Notion</h1>
 
 
-            <p  data-aos="fade-up" className="text-2xl  lg:text-3xl text-black mx-8  lg:mx-64 mt-12 font-extrabold">Notion is a notetaking app that provides you 
-            with everything you need to take high-quality notes. CodingNotes uses Notion for making the notes. You can download Notion for free
+            <p  data-aos="fade-up" className="text-2xl  lg:text-3xl select-none rounded-xl text-orange-400 hover:bg-orange-400 hover:text-white  mx-auto mt-8 mb-8  border-orange-400 border-4 bg-transparent ">Notion is a notetaking app that provides you 
+            with everything you need to take high-quality notes. CodingNotes uses Notion for making the notes.  You can download Notion for free
             or just use it in the browser without signing up.</p>
 
             <Link href="https://www.notion.so/product">
-              <button className="text-black shadow-md   dark:bg-black dark:text-white px-7 py-5
-                mx-auto  rounded-md hover:scale-110 duration-300 mt-16
-                bg-gradient-to-r from-yellow-400  to-teal-800 hover:from-teal-800 hover:to-yellow-400 hover:shadow-xl hover:shadow-black  hover:bg-white
-                ">
-              Get Notion here ( it is free )
-            </button>
-             </Link>
-
-
-
-              
-            </div>
-
-
-
-       
-
-
+              <button   id="badge-dismiss-default" className="inline-flex mt-6   items-center px-6 py-2 mr-3 text-2xl font-bold bg-purple-600 hover:bg-purple-500 text-black rounded">
+                #get_notion
+             </button>
+            </Link>
+        </div>
     </div>
+    
+    <div className='text-center flex justify-center  mt-64    mx-[8] sm:mx-[75px] md:mx-[150px] lg:mx-[300px] xl:mx-[500px] 2xl:mx-[600px]'>
+
+        <div className=' '>
+            <h1  data-aos="fade-up" className="text-3xl lg:text-4xl   mt-12 font-extrabold">Anki</h1>
 
 
-
-      <div className='text-center flex justify-center'>
-
-        <div className=''>
-            <h1  data-aos="fade-up" className="text-4xl lg:text-5xl  mt-24 font-extrabold">A flashcard app!</h1>
-
-
-            <p  data-aos="fade-up" className="text-2xl  lg:text-3xl text-black mx-8  lg:mx-64 mt-12 font-extrabold">Anki is a flashcard app that 
-            uses advanced algorithms to make learning as efficient as possible. Anki is free on almost every OS.</p>
+            <p  data-aos="fade-up" className="text-2xl  lg:text-3xl select-none rounded-xl text-blue-400 hover:bg-blue-400 hover:text-white  mx-auto mt-8 mb-8  border-blue-400 border-4 bg-transparent ">Anki is a flashcard app that 
+            uses advanced algorithms to make learning as efficient as possible. CodingNotes uses Anki for the concepts with flashcards. CodingNotes is neither affiliated nor endorsed by Emojipedia. The app is free on almost every OS.</p>
 
             <Link href="https://apps.ankiweb.net/">
-              <button className="text-black shadow-md   dark:bg-black dark:text-white px-7 py-5
-                mx-auto  rounded-md hover:scale-110 duration-300  mt-8 mb-24
-                bg-gradient-to-r from-pink-400  to-purple-800 hover:from-purple-800 hover:to-pink-400 hover:shadow-xl hover:shadow-black  hover:bg-white
-                ">
-              Get Anki here 
-            </button>
+              <button   id="badge-dismiss-default" className="inline-flex mt-6   items-center px-6 py-2 mr-3 text-2xl font-bold bg-green-600 hover:bg-green-500 text-black rounded">
+                #get_anki
+             </button>
             </Link>
-
-
-              
-            </div>
-
-
-
-       
-
-
+        </div>
     </div>
 
+    <div className='text-center flex justify-center  mt-64    mx-[8] sm:mx-[75px] md:mx-[150px] lg:mx-[300px] xl:mx-[500px] 2xl:mx-[600px]'>
 
-     <div className='text-center flex justify-center'>
-
-        <div className=''>
-            <h1  data-aos="fade-up" className="text-4xl lg:text-5xl   mt-16 font-extrabold ">Graphics on webiste</h1>
-            <h1  data-aos="fade-up" className="text-2xl  lg:text-3xl mb-4  mt-12 font-extrabold">Popsy.co</h1>
+        <div className=' '>
+            <h1  data-aos="fade-up" className="text-3xl lg:text-4xl   mt-12 font-extrabold">Popsy</h1>
 
 
-            <p  data-aos="fade-up" className="text-2xl  lg:text-3xl text-black  mx-8  lg:mx-64 font-extrabold">Popsy provides 
-            free illustrations. I can only recommend this product. ( Source: popsy.co )</p>
+            <p  data-aos="fade-up" className="text-2xl  lg:text-3xl select-none rounded-xl text-red-400 hover:bg-red-400 hover:text-white  mx-auto mt-8 mb-8  border-red-400 border-4 bg-transparent ">Some illustrations of Popsy.co are 
+            used. All credits for the image/images belong to them. CodingNotes is neither affiliated nor endorsed by Popsy. ( Source: popsy.co ) </p>
 
             <Link href="https://popsy.co/illustrations">
-              <button className="text-black shadow-md   dark:bg-black dark:text-white px-7 py-5
-                mx-auto  rounded-md hover:scale-110 duration-300  mt-8
-                bg-gradient-to-r from-indigo-400 mb-24  to-blue-800 hover:from-blue-800 hover:to-indigo-400 hover:shadow-xl hover:shadow-black  hover:bg-white
-                ">
-             Visit here !
-            </button>
+              <button   id="badge-dismiss-default" className="inline-flex mt-6   items-center px-6 py-2 mr-3 text-2xl font-bold bg-orange-600 hover:bg-orange-500 text-black rounded">
+                #go_to_popsy
+             </button>
             </Link>
-
-
-              
-
-              
-            </div>
-
-
-
-        
-
-
+        </div>
     </div>
+
+      <div className='text-center flex justify-center  mt-64    mx-[8] sm:mx-[75px] md:mx-[150px] lg:mx-[300px] xl:mx-[500px] 2xl:mx-[600px]'>
+
+        <div className=' '>
+            <h1  data-aos="fade-up" className="text-3xl lg:text-4xl   mt-12 font-extrabold">Emojipedia</h1>
+
+
+            <p  data-aos="fade-up" className="text-2xl  lg:text-3xl select-none rounded-xl text-teal-400 hover:bg-teal-400 hover:text-white  mx-auto mt-8 mb-8  border-teal-400 border-4 bg-transparent ">The Anki Flashcards contain emojis. These 
+            emojis are from Emojipedia.  All credits for the image/images belong to them. CodingNotes is neither affiliated nor endorsed by Emojipedia.  </p>
+
+            <Link href="https://emojipedia.org/">
+              <button   id="badge-dismiss-default" className="inline-flex mt-6   items-center px-6 py-2 mr-3 text-2xl font-bold bg-fuchsia-300 hover:bg-fuchsia-200 text-black rounded">
+                #go_to_emojipedia
+             </button>
+            </Link>
+        </div>
+    </div>
+    <Footer />
+
 
     </div>
 
