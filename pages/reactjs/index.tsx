@@ -104,7 +104,7 @@ const Index = () => {
       </div>
             <h1   className="text-4xl lg:text-7xl mt-12  font-extrabold">Learn the Nb.1 JavaScript Framework </h1>
 
-            <ModalVideo channel='youtube' isOpen={isOpen} videoId="PsrNSVDpysI"  onClose={() => setOpen(false)} />
+            <ModalVideo channel='youtube' isOpen={isOpen} videoId="NJezHMWcpsI"  onClose={() => setOpen(false)} />
              
         <button id="badge-dismiss-default"  onClick={()=> setOpen(true)} className="btn-primary inline-flex mt-8 mb-8  items-center px-10  py-5  text-2xl font-bold bg-cyan-300 hover:bg-cyan-200 text-black rounded">
           Discover with a video

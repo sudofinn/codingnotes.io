@@ -105,11 +105,6 @@ const Index = () => {
       </div>
             <h1   className="text-4xl lg:text-7xl mt-12  font-extrabold">Mono Focus OS ( Notion Template) </h1>
 
-            <ModalVideo channel='youtube' isOpen={isOpen} videoId="ELvKBP4aHXQ"  onClose={() => setOpen(false)} />
-             
-        <button id="badge-dismiss-default"  onClick={()=> setOpen(true)} className="btn-primary inline-flex mt-8 mb-8  items-center px-10  py-5  text-2xl font-bold bg-[#AC1EEF] hover:bg-purple-400 text-black rounded">
-          Discover with a video
-        </button>
 
 
     </div>
