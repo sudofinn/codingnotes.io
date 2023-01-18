@@ -28,19 +28,25 @@ const Header = () => {
 
 
  <Zoom>
-      <p className="mb-4 mt-4  bg-pink-500  text-2xl sm:text-3xl
-      mx-[8] sm:mx-[74px] md:mx-[150px] lg:mx-[300px] xl:mx-[500px] 2xl:mx-[600px]
+      <p className="mb-4 mt-4  bg-pink-500  text-xl sm:text-2xl
+      mx-[8] sm:mx-[74px] md:mx-[150px] lg:mx-[300px] xl:mx-[500px] 2xl:mx-[600px] 
       ">&quot; Just bought the notes and flashcards and I am  excited to use them  to learn coding.  &quot;</p>
-      <p className=" mb-12 mx-auto text-xl underline text-gray-300"><Link href="https://www.youtube.com/watch?v=Qc-nGIMv_SY&t=56s" target="_blank" >Tess Loggins , learns web development with CodingNotes</Link>  </p>
+      <p className="  mb-24 mx-auto text-xl underline text-gray-300"><Link href="https://www.youtube.com/watch?v=Qc-nGIMv_SY&t=56s" target="_blank" >Tess Loggins , learns web development with CodingNotes</Link>  </p>
 
-<Link href="/products">
-      <button id="badge-dismiss-default"   className="px-10 py-3  select-none rounded-md text-white 
-              hover:border-gray-500 border-4 font-extrabold  border-white  bg-black hover:bg-gray-800
-              
-                ">
-              When do you start ?
-            </button>
+     
+
+        
+
+
+<Link href="/products" className="relative px-4   md:px-16  py-5  md:py-8  text-white rounded-lg group font-extrabold text-2xl">
+<span className="absolute inset-0 w-full  h-full transition duration-300 transform -translate-x-1 -translate-y-1 bg-purple-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0"></span>
+
+<span className="absolute inset-0 w-full h-full transition duration-300 transform translate-x-1 translate-y-1 bg-pink-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0 mix-blend-screen"></span>
+
+<span className="relative group-hover:text-gray-200">Start your journey today !</span>
+
 </Link>
+
 
 </Zoom>
     </div>

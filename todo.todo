@@ -1,7 +1,5 @@
 
 
-getting hydration error when going to /other from #notintemplate section in homepage but not when I go from navbar
-( see https://github.com/sudofinn/blog/blob/master/pages/_app.tsx on fix )
 
 
 navbar make C for mobile version so users can go to homepage like they can on large screens )
@@ -10,7 +8,6 @@ navbar make C for mobile version so users can go to homepage like they can on la
 ipad /products /templates /other not looking good, images are not adaptive
 
 
-intro to frontend ( make form to receive email once launched , 25% discount on first 48 hours )
 
 
 cutting edges still a bit on homepage, must fix
