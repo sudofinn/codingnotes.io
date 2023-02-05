@@ -10,7 +10,7 @@ import second from "../../assets/covers/github.png"
 import third from  "../../assets/covers/github.png"
 
 import FrankSecondBrain from "../../assets/template_covers/frank_second_brain.webp"
-import FreelanceOS from "../../assets/template_covers/freelance_os_next_2.png"
+import FreelanceOS from "../../assets/freelanceos_1.png"
 import StartupOS from "../../assets/template_covers/startup_os_mockup.png"
 import MonoFocus from "../../assets/template_covers/mono_focus_adjusted.png"
 import GTD from "../../assets/template_covers/gtd_mockup.png"
@@ -26,9 +26,6 @@ import monothumbnail from "../../assets/template_covers/focus_thumbnail.png"
 
 import Head from 'next/head'
 
-/* price tag somwhere probably should be added */
-
-/* not commit until easlo, pascio affiliate reqeust was not fulfilled */
 
 
 import Image from "next/image"
@@ -51,7 +48,7 @@ const Templates = () => {
       title: "Freelance OS",
       intro:"A productivity template every freelancer will benefit from.",
       style: "shadow-white",
-      href: "/freelanceos",
+      href: "https://freelance.codingnotes.io/",
       buttonstyle: "bg-white hover:bg-gray-100",
       buttontitle: "#freelance"
     },
@@ -171,7 +168,7 @@ const Templates = () => {
       className="bg-gray-900 min-h-screen  "
     >
         <Head>
-      <title>Products</title>
+      <title>Templates</title>
       <meta name="description" content="The products." />
     </Head>
     <NavBar />
@@ -180,7 +177,7 @@ const Templates = () => {
           <h1 className="text-4xl  lg:text-5xl  font-extrabold text-white   p-2 inline ">
             Templates
           </h1>
-          <p className="py-8 text-center  mx-6 sm:mx-[200px] lg:mx-[200px] xl:mx-[250px] 2xl:mx-[300px] font-extrabold text-xl">The systems that provide you with efficient coding. </p>
+          <p className="py-8 text-center  mx-6 sm:mx-[200px] lg:mx-[200px] xl:mx-[250px] 2xl:mx-[300px] font-extrabold text-xl">The systems that make you an efficient developer. </p>
         </div>
 
         <div className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 text-center py-8 px-4 sm:px-0 cursor-pointer">
