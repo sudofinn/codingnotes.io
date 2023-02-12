@@ -21,11 +21,31 @@ const Header = () => {
     <div className='min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white
     '>
 
-    <Head>
+  <Head>
       <title>Third Party</title>
-      <meta name="description" content="Third Party Services on CodingNotes" />
+      <meta name="description" content="Third party services listed "></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
 
-    </Head>
+
+notion,
+anki,
+popsy,
+emojipedia
+
+
+
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>  
     <NavBar />
     
       <div className='text-center flex justify-center     mx-[8] sm:mx-[75px] md:mx-[150px] lg:mx-[300px] xl:mx-[500px] 2xl:mx-[600px] '>

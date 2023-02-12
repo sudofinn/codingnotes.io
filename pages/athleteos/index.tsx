@@ -93,7 +93,27 @@ const techs = [
 
          <Head>
       <title>Athlete OS</title>
-      <meta name="description" content="Journal and Habit Tracker Notion Template" />
+      <meta name="description" content="Athlete OS Notion Template"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="notion workout template free.
+notion workout template workout,
+notion templates,
+workout journal notion,
+notion page template,
+notion template household,
+notion template reading,
+notion template work
+
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
     </Head>
 
     

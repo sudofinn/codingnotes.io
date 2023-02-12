@@ -147,10 +147,31 @@ const Products = () => {
       
       className="bg-gray-900 min-h-screen  "
     >
-        <Head>
+      <Head>
       <title>Products</title>
-      <meta name="description" content="The products." />
-    </Head>
+      <meta name="description" content="Products web development CSS JavaScript React"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
+frontend languages,
+javascript ,
+reactjs,
+css,
+html,
+best front-end programming language,
+web programming languages
+
+
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>   
     <NavBar />
       <div className="max-w-screen-lg mx-auto pt-12  text-center  p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="mx-auto">

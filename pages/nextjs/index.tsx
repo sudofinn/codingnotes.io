@@ -92,8 +92,32 @@ const Index = () => {
     <div className='w-full min-h-screen font-extrabold   bg-gray-900 p-4 text-white '>
          <Head>
       <title>NextJS</title>
-      <meta name="description" content="NextJS Notes and Flashcards" />
-    </Head>
+      <meta name="description" content="NextJS for web development"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
+
+
+
+next js examples,
+next.js tutorial deutsch,
+nextjs vs react,
+next js tutorial,
+next js github,
+next js,
+next js cms,
+tailwind nextjs
+
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>    
 
     
 

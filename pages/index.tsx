@@ -22,7 +22,16 @@ export default function Home() {
     <div className='bg-gray-900 text-white     '>
        <Head>
       <title>CodingNotes</title>
-      <meta name="description" content="Detailed notes and flashcards for various programming languages." />
+      <meta name="description" content="Detailed notes and flashcards for various programming languages."></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="javascript, coding, web development,  learn to code, become a front end developer,learn  html, front end masters,front end developer,
+  front end website development, learn reactjs, learn the frontend
+   "></meta>
+  
+
       <meta
           property="og:image"
           content="../public/favicon.ico"

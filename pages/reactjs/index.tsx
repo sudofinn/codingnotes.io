@@ -89,12 +89,32 @@ const Index = () => {
   return (
 
     <div className='w-full min-h-screen font-extrabold   bg-gray-900 p-4 text-white '>
-         <Head>
-      <title>ReactJS</title>
-      <meta name="description" content="ReactJS Notes and Flashcards" />
-    </Head>
+      <Head>
+      <title>ReactJS </title>
+      <meta name="description" content="ReactJS JavaScript framework"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
 
-    
+learn react online ,
+react app class,
+react certification ,
+ react course,
+react bootcamp,
+best free react course,
+free react js bootcamp
+
+
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>       
 
 
      <div className='text-center '>

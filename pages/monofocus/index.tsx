@@ -90,12 +90,34 @@ const Index = () => {
   return (
 
     <div className='w-full min-h-screen font-extrabold   bg-gray-900 p-4 text-white '>
-         <Head>
-      <title>Mono Focus</title>
-      <meta name="description" content=" Mono Focus OS ( Notion Template )" />
-    </Head>
+      <Head>
+      <title>Mono Focus OS </title>
+      <meta name="description" content="Notion Mono Focus Operating System"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
 
-    
+
+
+
+notion templates,
+notion planer,
+notion examples,
+notion notes template,
+notion pages,
+project50 notion,
+second brain notion template,
+to-do notion template,
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>       
 
 
      <div className='text-center '>

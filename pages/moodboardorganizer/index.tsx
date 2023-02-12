@@ -66,10 +66,34 @@ const techs = [
   return (
 
     <div>
-         <Head>
+      <Head>
       <title>Moodboard and Organizer</title>
-      <meta name="description" content="Moodboard and Organizer Notion Template" />
-    </Head>
+      <meta name="description" content="Moodboard and Organizer Notion Template"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
+
+
+
+notion templates,
+notion page template,
+notion shopping template,
+notion marketing template,
+notion life planner template,
+household planner notion,
+notion template household,
+notion template lecture
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>       
+ 
 
     
 

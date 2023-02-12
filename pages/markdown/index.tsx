@@ -91,10 +91,34 @@ const Index = () => {
   return (
 
     <div className='w-full min-h-screen font-extrabold   bg-gray-900 p-4 text-white '>
-         <Head>
-      <title>Markdown</title>
-      <meta name="description" content="Markdown Notes and Flashcards" />
-    </Head>
+     <Head>
+      <title>Markdown </title>
+      <meta name="description" content="Markdown for web development"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
+
+
+
+markdown editor,
+markdown to html,
+markdown download,
+markdown info box,
+markdown online,
+markdown link,
+markdown cheat sheet,
+markdown table
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>   
+ 
 
     
 

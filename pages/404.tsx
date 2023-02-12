@@ -34,8 +34,23 @@ const Custom404 = () => {
     <div className="bg-gray-900 min-h-screen  text-white">
 
     <Head>
+        <Head>
       <title>404 page</title>
-      <meta name="description" content="The 404 page,an  unexisting page from the blog A Tiny Improvement. Made by Finn Guha." />
+      <meta name="description" content="404 page of CodingNotes"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="javascript, coding, web development,  learn to code, become a front end developer,learn  html, front end masters,front end developer,
+  front end website development, learn reactjs, learn the frontend
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>
 
     </Head>
     <NavBar />

@@ -9,10 +9,32 @@ const index = () => {
   return (
     <div className='bg-gray-900 min-h-screen  text-white text-center'>
 
-         <Head>
+       <Head>
       <title>Tags</title>
-      <meta name="description" content="FAQ on CodingNotes" />
-    </Head>
+      <meta name="description" content="Tags to find packages"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
+
+
+frontend  languages,
+frontend frameworks,
+best front-end programming language,
+frontend and backend programming languages,
+full stack developer languages,
+app development languages,
+
+
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>    
     <NavBar />
 
         <h1 data-aos="fade-up" className="text-center  font-extrabold text-5xl mb-4 mt-16">Tags</h1>

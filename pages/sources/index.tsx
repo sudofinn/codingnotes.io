@@ -25,11 +25,33 @@ const IntroToCode = () => {
   return (
     <div className="bg-gradient-to-b from-gray-900 text-center to-gray-800 w-full min-h-screen text-white">
 
-    <Head>
+   <Head>
       <title>Sources</title>
-      <meta name="description" content="Sources used on CodingNotes" />
+      <meta name="description" content="Every source listed "></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
 
-    </Head>
+
+codex notes,
+note-taking app with code snippets,
+notion,
+coding notes for beginners,
+best note-taking app,
+digital notes,
+notes app
+
+
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>   
     <NavBar />
 
 

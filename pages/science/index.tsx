@@ -12,10 +12,31 @@ const index = () => {
   return (
     
     <div className='bg-gradient-to-b from-gray-900 text-center to-gray-800 w-full min-h-screen text-white'>
-      <Head>
+     <Head>
       <title>Science</title>
-      <meta name="description" content="The Science of CodingNotes" />
-    </Head>
+      <meta name="description" content="Why CodingNotes works and how"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
+
+learn programming free,
+learn programming reddit,
+learn programming online free,
+learn programming python,
+learn programming game,
+learn programming app
+
+
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>     
     <NavBar />
         <h1 className="text-2xl  inline-flex justify-center mt-12 bg-pink-500  lg:text-7xl font-extrabold">The Science of CodingNotes</h1>
 

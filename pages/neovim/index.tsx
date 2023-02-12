@@ -91,10 +91,35 @@ const Index = () => {
   return (
 
     <div className='w-full min-h-screen font-extrabold   bg-gray-900 p-4 text-white '>
-         <Head>
+       <Head>
       <title>Neovim</title>
-      <meta name="description" content="Neovim Notes and Flashcards" />
-    </Head>
+      <meta name="description" content="Vim and Neovim editor"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
+
+
+
+learn vim game,
+best way to learn vim,
+learn-vim github,
+vim adventures level 1,
+vim exercises,
+vim tutor,
+vim adventures,
+vim online editor
+
+
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>   
 
     
 

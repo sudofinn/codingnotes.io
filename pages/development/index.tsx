@@ -25,11 +25,31 @@ const Markdown = () => {
   return (
     <div className="w-full h-screen  px-6 dark:bg-white dark:text-black bg-black p-4 text-white">
 
-    <Head>
-      <title>Development</title>
-      <meta name="description" content="The 404 page,an  unexisting page from the blog A Tiny Improvement. Made by Finn Guha." />
+        <Head>
+      <title>In Development</title>
+      <meta name="description" content="Content is under development"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
 
-    </Head>
+learn programming free,
+learn programming online free,
+learn programming reddit,
+learn programming python,
+freecodecamp,
+learn programming game,
+codecademy,
+learn programming app
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>   
 
         <h1 data-aos="fade-up" className="text-center font-extrabold text-7xl mb-16 mt-16">Still in development</h1>
 

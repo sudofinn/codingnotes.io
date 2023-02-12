@@ -83,12 +83,31 @@ const Index = () => {
   return (
 
     <div className='w-full min-h-screen font-extrabold   bg-gray-900 p-4 text-white '>
-         <Head>
+       <Head>
       <title>Frontend Bundle</title>
-      <meta name="description" content="Frontend Bundle Notes and Flashcards" />
-    </Head>
+      <meta name="description" content="Bundle for HTML/CSS, JavaScript, React, NextJS"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
 
-    
+front end development languages,
+how to start web development,
+front end developer,
+learning web development,
+front end development tutorial,
+front end developer gehalt,
+web frontend,
+back end development
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>       
 
 
      <div className='text-center '>

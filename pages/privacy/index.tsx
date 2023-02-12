@@ -9,10 +9,33 @@ const Terms = () => {
   return (
     <div className="bg-gray-900 min-h-screen  ">
 
-    <Head>
-      <title>Terms</title>
-      <meta name="description" content="Terms and Conditions for CodingNotes" />
-    </Head>
+      <Head>
+      <title>Privacy</title>
+      <meta name="description" content="Privacy Policy for CodingNotes"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
+
+how to learn frontend development,
+how long to learn front end development,
+front end developer,
+frontend free course,
+freecodecamp,
+frontend skills,
+javascript frontend tutorial,
+how to start front-end development
+
+
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>  
     <NavBar />
 
 

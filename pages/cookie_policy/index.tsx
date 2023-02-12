@@ -9,10 +9,31 @@ const Terms = () => {
  return (
     <div className="bg-gray-900 min-h-screen  ">
 
-    <Head>
-      <title>Terms</title>
-      <meta name="description" content="Terms and Conditions for CodingNotes" />
-    </Head>
+         <Head>
+      <title>Cookie Policy</title>
+      <meta name="description" content="Cookie Policy for CodingNotes"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
+
+cookie policy deutsch,
+cookie policy generator,
+eu cookie policy,
+cookie clicker,
+cookie-banner,
+cookies zulassen,
+cookie-einstellungen,
+cookie template
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>  
     <NavBar />
 
       <div className=" max-w-screen-lg mx-auto pt-12  text-center  p-4 flex flex-col justify-center w-full h-full text-white">

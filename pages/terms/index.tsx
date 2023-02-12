@@ -9,10 +9,35 @@ const Terms = () => {
  return (
     <div className="bg-gray-900 min-h-screen  ">
 
-    <Head>
+   <Head>
       <title>Terms</title>
-      <meta name="description" content="Terms and Conditions for CodingNotes" />
-    </Head>
+      <meta name="description" content="Terms and Conditions "></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
+
+
+terms and conditions ,
+terms and conditions generator,
+terms and conditions template,
+terms and conditions example,
+terms and conditions ,
+terms and conditions book,
+general terms and conditions,
+terms and conditions difference between
+
+
+
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>  
     <NavBar />
 
       <div className=" max-w-screen-lg mx-auto pt-12  text-center  p-4 flex flex-col justify-center w-full h-full text-white">

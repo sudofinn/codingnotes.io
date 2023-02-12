@@ -80,10 +80,30 @@ const Index = () => {
   return (
 
     <div className='w-full min-h-screen font-extrabold   bg-gray-900 p-4 text-white '>
-         <Head>
+           <Head>
       <title>Blog Template</title>
-      <meta name="description" content="Blog Template" />
-    </Head>
+      <meta name="description" content="Blog Template HTML/Javascript"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
+blog template free,
+blog template wordpress,
+blog post template,
+html blog template free,
+webflow blog template,
+envato blog templates,
+bootstrap blog template,
+simple blog template
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head> 
 
     
 

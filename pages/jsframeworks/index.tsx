@@ -50,10 +50,31 @@ const Products = () => {
       className="bg-black  min-h-screen "
     >
 
-         <Head>
-      <title>JS Frameworks</title>
-      <meta name="description" content="JavaScript Frameworks Notes and Flashcards" />
-    </Head>
+      <Head>
+      <title>JS Frameworks </title>
+      <meta name="description" content="JavaScript Frameworks like ReactJS and NextJS"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
+
+
+javascript frameworks list,
+javascript frontend frameworks,
+javascript libraries,
+new javascript frameworks,
+javascript frameworks popularity,
+javascript frameworks comparison,
+javascript frameworks 2022
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>   
 
       <div className="max-w-screen-lg mx-auto pt-12 text-center p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="mx-auto">

@@ -63,10 +63,32 @@ const techs = [
 
     <div>
 
-         <Head>
-      <title>Journal and Habit Tracker</title>
-      <meta name="description" content="Journal and Habit Tracker Notion Template" />
-    </Head>
+     <Head>
+      <title>Journal & Habit Tracker </title>
+      <meta name="description" content="Journal & Habit Tracker organized"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
+
+
+habit tracker notion template aesthetic,
+weekly habit tracker notion template,
+notion habit tracker free,
+habit tracker notion 2022,
+notion habit tracker 2023,
+notion habit tracker with progress bar,
+notion habit tracker reddit,
+notion templates
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>     
 
     
 

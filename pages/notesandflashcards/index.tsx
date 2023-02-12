@@ -4,6 +4,7 @@ import FlashcardImage from "../../assets/third.png"
 
 import Image from "next/image"
 import Link from "next/link"
+import Head from "next/head"
 
 import NavBar from '../../components/home/NavBar'
 import Footer from '../../components/home/Footer'
@@ -12,6 +13,33 @@ import Footer from '../../components/home/Footer'
 const Explain = () => {
   return (
     <div className='bg-gray-900 text-white'>
+        <Head>
+      <title>Notes and Flashcards</title>
+      <meta name="description" content="Notes and Flashcards to learn  web development"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
+
+
+
+codex notes,
+note-taking app with code snippets,
+notion,
+coding notes for beginners,
+best note-taking app,
+digital notes,
+notes app
+
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>   
 
         <NavBar />
 

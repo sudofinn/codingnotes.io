@@ -88,10 +88,30 @@ const Index = () => {
   return (
 
     <div className='w-full min-h-screen font-extrabold   bg-gray-900 p-4 text-white '>
-         <Head>
-      <title>HTML and CSS</title>
-      <meta name="description" content="HTML and CSS Notes and Flashcards" />
-    </Head>
+       <Head>
+      <title>HTML/CSS</title>
+      <meta name="description" content="HTML and CSS for web development"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
+
+learn html,
+w3schools css,
+css tutorial ,
+css course,
+learn html & css,
+css programming language,
+css selectors
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>    
 
     
 

@@ -28,10 +28,31 @@ const BeforeLaunch = () => {
   return (
     <div className="bg-gray-900 min-h-screen  ">
 
-    <Head>
-      <title>Frontend Intro</title>
-      <meta name="description" content="An Introduction to the Frontend." />
-    </Head>
+   <Head>
+      <title>Intro to Frontend</title>
+      <meta name="description" content="An Introduction to the Frontend in web development."></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
+
+self introduction for front-end developer,
+introduction to front-end development coursera,
+introduction to front-end development meta,
+front-end developer profile description,
+front end web development,
+meta front-end developer professional certificate,
+front end development overview,
+developer introduction
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>     
     <NavBar />
 
     

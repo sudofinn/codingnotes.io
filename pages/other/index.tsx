@@ -145,10 +145,33 @@ const Templates = () => {
       
       className="bg-gray-900 min-h-screen  "
     >
-        <Head>
+         <Head>
       <title>Other</title>
-      <meta name="description" content="The products." />
-    </Head>
+      <meta name="description" content="Templates, colorthemes, templates to learn coding"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
+
+website templates ,
+website templates ,
+website templates html,
+website templates free tailwind
+website templates now
+website templates english
+professional website templates,
+website templates github
+
+
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>   
     <NavBar />
       <div className="max-w-screen-lg mx-auto pt-12  text-center  p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="mx-auto">

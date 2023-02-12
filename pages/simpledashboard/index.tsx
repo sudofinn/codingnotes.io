@@ -68,12 +68,32 @@ const techs = [
   return (
 
     <div>
-         <Head>
+     <Head>
       <title>Simple Dashboard</title>
-      <meta name="description" content="Simple Dashboard Notion Template" />
-    </Head>
+      <meta name="description" content="Free Notion Template dashboard "></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
 
-    
+
+notion dashboard templates free,
+notion dashboard templates aesthetic,
+best notion dashboard templates,
+notion dashboard student,
+notion dashboard inspiration,
+notion dashboard reddit,
+notion templates
+
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>     
 
 
      <div className='text-center'>

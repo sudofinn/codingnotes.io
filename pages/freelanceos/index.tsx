@@ -28,10 +28,31 @@ const BeforeLaunch = () => {
   return (
     <div className="bg-gray-900 min-h-screen  ">
 
-    <Head>
-      <title>Freelance OS (Notion Template)</title>
-      <meta name="description" content="The Freelance OS ( Notion Template )" />
-    </Head>
+     <Head>
+      <title>Freelance OS Notion Template</title>
+      <meta name="description" content="Content is under development"></meta>
+      <meta name="author" content="Finn Guha"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"></meta>
+  <meta name="theme-color" content="none"></meta>
+  <meta name="mobile-web-app-capable" content="yes"></meta>
+  <meta name="keywords" content="
+
+notion templates,
+notion startup,
+notion shopping template,
+notion design,
+notion page template,
+second brain notion template,
+second brain notion template free,
+notion notes template
+   "></meta>
+  
+
+      <meta
+          property="og:image"
+          content="../public/favicon.ico"
+        />
+    </Head>   
     <NavBar />
 
     
