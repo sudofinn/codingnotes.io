@@ -26,7 +26,7 @@ import NextJS from "../../assets/covers/nextjs_1.png"
 import Vim from "../../assets/covers/vim_1.png"
 import Frontend from "../../assets/covers/frontendbundle_2.png"
 import Markdown from "../../assets/covers/markdown_1.png"
-import IntroToFrontend from "../../assets/covers/intro_to_frontend_1.png"
+import IntroToFrontend from "../../assets/covers/intro_to_frontend_1_real.png"
 
 import Head from 'next/head'
 

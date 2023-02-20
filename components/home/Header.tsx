@@ -25,11 +25,11 @@ const Header = () => {
 
         
             <h1  className=" text-4xl sm:text-5xl xl:text-6xl 2xl:text-7xl
-             mx-[4] sm:mx-[75px] md:mx-[150px] lg:mx-[300px]  2xl:mx-[500px]
-            mb-4 mt-8 sm:mt-12 ">
+             mx-[4] sm:mx-[75px] md:mx-[150px] lg:mx-[300px]  2xl:mx-[300px] min-[1700px]:mx-[500px]
+            mb-4 mt-8 sm:mt-12  ">
               Learn to <span className='font-extrabold text-purple-600'>code</span> and <span className='font-extrabold text-blue-400'> never forget</span>  it</h1>
             <h1 className='text-lg md:text-xl mt-4 mb-4 
-            mx-[8] sm:mx-[75px] md:mx-[150px] lg:mx-[300px] xl:mx-[500px] 2xl:mx-[600px]'> Detailed Notes and extensive Flashcards for various programming languages and technologies.</h1>
+            mx-[8] sm:mx-[75px] md:mx-[150px] lg:mx-[300px]  xl:mx-[550px] 2xl:mx-[500px] min-[1700px]:mx-[650px]'> Detailed Notes and extensive Flashcards for various programming languages and technologies.</h1>
 
              <ModalVideo channel='youtube' isOpen={isOpen} videoId="qrTHDAbPN9I"  onClose={() => setOpen(false)} />
 
