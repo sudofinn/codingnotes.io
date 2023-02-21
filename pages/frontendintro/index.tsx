@@ -120,12 +120,10 @@ frontend roadmap
       </div>
             <h1   className="text-4xl lg:text-7xl mt-12 mb-12 font-extrabold">Learn the basics of the  Frontend </h1>
 
-            <ModalVideo channel='youtube' isOpen={isOpen} videoId="ELvKBP4aHXQ"  onClose={() => setOpen(false)} />
-             {/*
+            <ModalVideo channel='youtube' isOpen={isOpen} videoId="OX9c5Ab_V5U"  onClose={() => setOpen(false)} />
         <button id="badge-dismiss-default"  onClick={()=> setOpen(true)} className="btn-primary inline-flex mt-8 mb-8  items-center px-10  py-5  text-2xl font-bold bg-[#EC4899] hover:bg-[#F158A4] text-black rounded">
           Discover with a video
         </button>
-  */}
 
 
     </div>
