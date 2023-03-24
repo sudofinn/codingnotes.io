@@ -21,12 +21,14 @@ import first from "../../assets/covers/github.png"
 import HTML from "../../assets/covers/htmlcss1_final.png"
 import CSS from "../../assets/covers/htmlcss1_final.png"
 import JavaScript from "../../assets/covers/javascript_1.png"
+import TypeScript from "../../assets/covers/typescript_1.png"
 import ReactJS from "../../assets/covers/react_1.png"
 import NextJS from "../../assets/covers/nextjs_1.png"
 import Vim from "../../assets/covers/vim_1.png"
 import Frontend from "../../assets/covers/frontendbundle_2.png"
 import Markdown from "../../assets/covers/markdown_1.png"
 import IntroToFrontend from "../../assets/covers/intro_to_frontend_1_real.png"
+
 
 import Head from 'next/head'
 
@@ -69,8 +71,19 @@ const Products = () => {
       buttontitle: "#javascript"
       
     },
-    {
+     {
       id: 4,
+      src: TypeScript,
+      title: "TypeScript",
+      intro: "Learn the superset of JavaScript to become a pro.",
+      style: "shadow-blue-500",
+      href: "/typescript",
+      buttonstyle: "bg-blue-500 hover:bg-blue-400",
+      buttontitle: "#typescript"
+      
+    },
+    {
+      id: 5,
       src: ReactJS,
       title: "ReactJS",
       intro: "Embrace the most popular JavaScript Framework.",
@@ -80,7 +93,7 @@ const Products = () => {
       buttontitle: "#reactjs"
     },
     {
-      id: 5,
+      id: 6,
       src: NextJS,
       title: "NextJS",
       intro: "Enjoy the Meta-Framework for React and it`s benefits.",
@@ -92,7 +105,7 @@ const Products = () => {
    
     
     {
-      id: 6,
+      id: 7,
       src: Vim,
       title: "(Neo)Vim",
       intro: "Achieve  legend status by using this editor.",
@@ -103,7 +116,7 @@ const Products = () => {
     }, 
    
     {
-      id: 6,
+      id: 8,
       src: Frontend,
       title: "Frontend Bundle",
       intro: "Learn 5 technologies and save your money in the process.",
@@ -114,7 +127,7 @@ const Products = () => {
     }, 
 
     {
-      id: 6,
+      id: 9,
       src: Markdown,
       title: "Markdown",
       intro: "Explore the  language that is used everywhere for a reason.",
@@ -124,7 +137,7 @@ const Products = () => {
       buttontitle: "#markdown"
     }, 
     {
-      id: 6,
+      id: 10,
       src: IntroToFrontend,
       title: "Intro to Frontend",
       style: "shadow-pink-500",
