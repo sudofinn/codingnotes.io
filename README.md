@@ -1,4 +1,4 @@
- ![First](/assets//readme1.jpg?raw=true)
+ ![First](/assets//readme_12.png?raw=true)
 
 <div > 
 
@@ -22,18 +22,20 @@ and flashcards on various programming languages and technologies. </p>
 <h1 style="margin-top:40px; font-weight:bolder"> Languages and Technologies used </h1>
 
 <ul style="font-weight:bolder">
-<li>An introduction to Code </li>
+<li>An introduction to the Frontend </li>
 <li>HTML and CSS </li>
 <li>JavaScript </li>
+<li>TypeScript </li>
 <li>ReactJS </li>
 <li>NextJS </li>
+<li>Frontend Bundle </li>
 <li>Markdown </li>
 <li>Vim/Neovim </li>
 
  </ul>
 
-![First](/assets//readme2.jpg?raw=true)
-![First](/assets//readme3.jpg?raw=true)
+![First](/assets//readme_4.webp?raw=true)
+![First](/assets//readme_5.webp?raw=true)
 
 
 
@@ -41,8 +43,7 @@ and flashcards on various programming languages and technologies. </p>
 <h1 style="margin-top:40px; font-weight:bolder"> Templates </h1>
 <p style="font-weight:bolder">There are also multiple Notion Templates that are directly dedicated to make you an efficient programmer. </p>
 
-![First](/assets//readme4.jpg?raw=true)
-![First](/assets//readme5.jpg?raw=true)
+![First](/assets//readme_7.webp?raw=true)
 
 
 <h1 style="margin-top:40px; font-weight:bolder" > Check it out</h1>
