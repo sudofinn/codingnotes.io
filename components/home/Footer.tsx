@@ -31,9 +31,7 @@ const Footer = () => {
 								<FaYoutube className="text-2xl cursor-pointer hover:text-red-600 duration-300" />
 							</Link>
 
-							<Link href="https://www.tiktok.com/@coding_notes" target="_blank">
-								<FaTiktok className="text-2xl cursor-pointer hover:text-teal-600 duration-300" />
-							</Link>
+							
 
 
 							<Link href="/" >
