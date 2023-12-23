@@ -101,7 +101,7 @@ const Footer = () => {
 			</div>
 			<div className="flex flex-col justify-center items-center text-center  p-5 ">
 				<h1 className=" text-gray-500 font-extrabold ">
-					© 2022 | All rights reserved | {" "}
+					© 2023 | All rights reserved | {" "}
 					<Link href="/" className="hover:text-blue-600 font-extrabold  cursor-pointer">
 						CodingNotes{" "}
 					</Link>

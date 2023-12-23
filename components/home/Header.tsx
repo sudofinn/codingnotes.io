@@ -16,7 +16,7 @@ import Image from "next/image"
 
 const Header = () => {
    const [isOpen, setOpen] = useState(false)
-
+  
 
   return (
   <div className=' min-h-screen      bg-gray-900 w-full p-4 text-white'>
