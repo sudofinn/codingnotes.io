@@ -92,9 +92,7 @@ const Footer = () => {
 						<li onClick={() => Router.push("/cookie_policy")} className="text-gray-500 text-md pb-2 font-extrabold  hover:text-indigo-600 cursor-pointer">
 							Cookie Policy
 						</li>
-						<li onClick={() => Router.push("/impressum")} className="text-gray-500 text-md pb-2 font-extrabold  hover:text-indigo-600 cursor-pointer">
-							Impressum
-						</li>
+						
 						
 					</ul>
 				</div>
